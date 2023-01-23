@@ -1,56 +1,18 @@
 import React from "react";
+import { formatCurrency, formatDateTime } from "./helpers";
+import { CreditRequest } from "./interfaces";
 
-const locale = "en-US";
-
-export interface FarmerName {
-  firstName: string;
-  lastName: string;
-}
-
-interface CreditRequest {
-  id: string;
-  farmer_id: string;
-  purpose: string[];
-  season: string;
-  due_date: string;
-  amount: number;
-}
-
-export interface FarmerRequest {
-  id: string;
-  farmer: FarmerName;
-  status: string;
+interface CreditRequestsTableProps {
   credit_requests: CreditRequest[];
 }
-
-export interface CreditRequestsTableProps {
-  data: {
-    items: FarmerRequest[];
-    totalInPage: number;
-    totalItems: number;
-    totalPages: number;
-  };
-}
-
-const formatCurrency = (amount: number) =>
-  new Intl.NumberFormat(locale, {
-    currency: "USD",
-    style: "currency",
-  }).format(amount);
 
 const formatPurposes = (purposes: string[]) =>
   purposes.map((p) => p[0].toUpperCase() + p.slice(1)).join(", ");
 
-const formatDateTime = (datetime: string) =>
-  new Intl.DateTimeFormat(locale, {
-    dateStyle: "short",
-    timeStyle: "short",
-  }).format(new Date(datetime));
-
-const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
+const CreditRequestsTable = ({ credit_requests }: CreditRequestsTableProps) => {
   return (
     <div className="not-prose relative overflow-hidden rounded-xl bg-slate-50 dark:bg-slate-800/25">
-      <table className="table-auto border-collapse">
+      <table className="w-full table-auto border-collapse">
         <thead className="font-medium text-slate-400">
           <tr>
             <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
@@ -68,24 +30,22 @@ const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
           </tr>
         </thead>
         <tbody className="bg-white dark:bg-slate-800">
-          {data.items
-            .flatMap((item) => item.credit_requests)
-            .map((credit_request) => (
-              <tr key={credit_request.id}>
-                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-                  {credit_request.season}
-                </td>
-                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-                  {formatCurrency(credit_request.amount)}
-                </td>
-                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-                  {formatPurposes(credit_request.purpose)}
-                </td>
-                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-                  {formatDateTime(credit_request.due_date)}
-                </td>
-              </tr>
-            ))}
+          {credit_requests.map((credit_request) => (
+            <tr key={credit_request.id}>
+              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                {credit_request.season}
+              </td>
+              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                {formatCurrency(credit_request.amount)}
+              </td>
+              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                {formatPurposes(credit_request.purpose)}
+              </td>
+              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                {formatDateTime(credit_request.due_date)}
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>
