@@ -5,11 +5,14 @@ import CreditRequestsTable, {
   CreditRequestsTableProps,
 } from "./CreditRequestsTable";
 
+const baseUrl = "http://localhost:3004";
+
 const App = () => {
   const [data, setData] = useState<CreditRequestsTableProps["data"]>();
+
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:3004/credit-requests");
+      const response = await fetch(`${baseUrl}/credit-requests`);
       const data = await response.json();
       setData(data);
     };
