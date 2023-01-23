@@ -3,6 +3,13 @@ export interface FarmerName {
   lastName: string;
 }
 
+enum Status {
+  Approved = "approved",
+  Draft = "draft",
+  Ready = "ready",
+  Rejected = "rejected",
+}
+
 export interface CreditRequest {
   id: string;
   farmer_id: string;
@@ -15,7 +22,7 @@ export interface CreditRequest {
 export interface FarmerRequest {
   id: string;
   farmer: FarmerName;
-  status: string;
+  status: Status;
   credit_requests: CreditRequest[];
 }
 
