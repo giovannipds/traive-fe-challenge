@@ -1,8 +1,29 @@
 import React from "react";
 
+interface FarmerName {
+  firstName: string;
+  lastName: string;
+}
+
+interface CreditRequest {
+  id: string;
+  farmer_id: string;
+  purpose: string[];
+  season: string;
+  due_date: string;
+  amount: number;
+}
+
+interface FarmerRequest {
+  id: string;
+  farmer: FarmerName;
+  status: string;
+  credit_requests: CreditRequest[];
+}
+
 export interface CreditRequestsTableProps {
   data: {
-    items: any[];
+    items: FarmerRequest[];
     totalInPage: number;
     totalItems: number;
     totalPages: number;
