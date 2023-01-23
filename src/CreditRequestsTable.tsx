@@ -1,5 +1,7 @@
 import React from "react";
 
+const locale = "en";
+
 interface FarmerName {
   firstName: string;
   lastName: string;
@@ -49,7 +51,12 @@ const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
               <td>{credit_request.season}</td>
               <td>{credit_request.amount}</td>
               <td>{credit_request.purpose.join(", ")}</td>
-              <td>{credit_request.due_date}</td>
+              <td>
+                {new Intl.DateTimeFormat(locale, {
+                  dateStyle: "short",
+                  timeStyle: "short",
+                }).format(new Date(credit_request.due_date))}
+              </td>
             </tr>
           ))}
       </tbody>
