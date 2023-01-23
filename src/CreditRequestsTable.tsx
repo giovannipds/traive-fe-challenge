@@ -2,7 +2,7 @@ import React from "react";
 
 const locale = "en-US";
 
-interface FarmerName {
+export interface FarmerName {
   firstName: string;
   lastName: string;
 }
@@ -16,7 +16,7 @@ interface CreditRequest {
   amount: number;
 }
 
-interface FarmerRequest {
+export interface FarmerRequest {
   id: string;
   farmer: FarmerName;
   status: string;
