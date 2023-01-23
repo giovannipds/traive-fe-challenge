@@ -1,6 +1,6 @@
 import React from "react";
 
-const locale = "en";
+const locale = "en-US";
 
 interface FarmerName {
   firstName: string;
@@ -49,8 +49,17 @@ const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
           .map((credit_request) => (
             <tr key={credit_request.id}>
               <td>{credit_request.season}</td>
-              <td>{credit_request.amount}</td>
-              <td>{credit_request.purpose.join(", ")}</td>
+              <td>
+                {new Intl.NumberFormat(locale, {
+                  currency: "USD",
+                  style: "currency",
+                }).format(credit_request.amount)}
+              </td>
+              <td>
+                {credit_request.purpose
+                  .map((p) => p[0].toUpperCase() + p.slice(1))
+                  .join(", ")}
+              </td>
               <td>
                 {new Intl.DateTimeFormat(locale, {
                   dateStyle: "short",
