@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import CreditRequestsTable from "./CreditRequestsTable";
 import { formatCurrency, formatDateTime } from "./helpers";
 import { FarmerName, FullFarmerRequest } from "./interfaces";
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
+import {
+  ChevronDownIcon,
+  ChevronUpIcon,
+  EllipsisVerticalIcon,
+} from "@heroicons/react/24/solid";
 
 interface FarmerRequestRowProps {
   item: FullFarmerRequest;
@@ -43,7 +47,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
               {formatDateTime(new Date().toString())}
             </td>
             <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-              Dropdown
+              <EllipsisVerticalIcon className="h-6 w-6 text-blue-500" />
             </td>
           </tr>
         </table>
