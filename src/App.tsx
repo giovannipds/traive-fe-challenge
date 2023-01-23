@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo mb-3" alt="Traive™" />
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
         <CreditRequestsTable />
       </header>
     </div>
