@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CreditRequestsTable from "./CreditRequestsTable";
 import { formatCurrency, formatDateTime } from "./helpers";
 import { FarmerName, FullFarmerRequest } from "./interfaces";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 interface FarmerRequestRowProps {
   item: FullFarmerRequest;
@@ -21,7 +22,13 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
         <table className="w-full">
           <tr>
             <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
-              <button onClick={expandRow}>Chevron</button>
+              <button onClick={expandRow}>
+                {!expanded ? (
+                  <ChevronDownIcon className="h-6 w-6 text-blue-500" />
+                ) : (
+                  <ChevronUpIcon className="h-6 w-6 text-blue-500" />
+                )}
+              </button>
             </td>
             <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
               {formatName(item.farmer)}
