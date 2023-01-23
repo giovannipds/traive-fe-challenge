@@ -49,7 +49,7 @@ const formatDateTime = (datetime: string) =>
 
 const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
   return (
-    <table className="table-auto">
+    <table className="table-auto border-collapse">
       <thead>
         <tr>
           <th>Season</th>
