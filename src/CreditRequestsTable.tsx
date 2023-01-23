@@ -49,28 +49,46 @@ const formatDateTime = (datetime: string) =>
 
 const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
   return (
-    <table className="table-auto border-collapse">
-      <thead>
-        <tr>
-          <th>Season</th>
-          <th>Amount Requested</th>
-          <th>Purpose</th>
-          <th>Due Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.items
-          .flatMap((item) => item.credit_requests)
-          .map((credit_request) => (
-            <tr key={credit_request.id}>
-              <td>{credit_request.season}</td>
-              <td>{formatCurrency(credit_request.amount)}</td>
-              <td>{formatPurposes(credit_request.purpose)}</td>
-              <td>{formatDateTime(credit_request.due_date)}</td>
-            </tr>
-          ))}
-      </tbody>
-    </table>
+    <div className="not-prose relative overflow-hidden rounded-xl bg-slate-50 dark:bg-slate-800/25">
+      <table className="table-auto border-collapse">
+        <thead className="font-medium text-slate-400">
+          <tr>
+            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+              Season
+            </th>
+            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+              Amount Requested
+            </th>
+            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+              Purpose
+            </th>
+            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+              Due Date
+            </th>
+          </tr>
+        </thead>
+        <tbody className="bg-white dark:bg-slate-800">
+          {data.items
+            .flatMap((item) => item.credit_requests)
+            .map((credit_request) => (
+              <tr key={credit_request.id}>
+                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                  {credit_request.season}
+                </td>
+                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                  {formatCurrency(credit_request.amount)}
+                </td>
+                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                  {formatPurposes(credit_request.purpose)}
+                </td>
+                <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                  {formatDateTime(credit_request.due_date)}
+                </td>
+              </tr>
+            ))}
+        </tbody>
+      </table>
+    </div>
   );
 };
 
