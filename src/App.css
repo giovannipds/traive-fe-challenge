@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  width: 143px;
-}
-
 .App-header {
   background-color: var(--c-gray-dark);
   min-height: 100vh;
@@ -15,4 +11,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-logo {
+  width: 143px;
 }
