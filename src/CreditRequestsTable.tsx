@@ -26,9 +26,9 @@ const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
           .map((credit_request) => (
             <tr key={credit_request.id}>
               <td>{credit_request.season}</td>
-              <td>Malcolm Lockyer</td>
-              <td>Lorem</td>
-              <td>1961</td>
+              <td>{credit_request.amount}</td>
+              <td>{credit_request.purpose.join(", ")}</td>
+              <td>{credit_request.due_date}</td>
             </tr>
           ))}
       </tbody>
