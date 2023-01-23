@@ -1,0 +1,3007 @@
+{
+  "totalInPage": 100,
+  "totalItems": 100,
+  "totalPages": 1,
+  "items": [
+    {
+      "id": "f873e8be-d489-4259-8c94-417bc4f136f0",
+      "farmer": {
+        "firstName": "Evan",
+        "lastName": "Boyle"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "0437c1ec-39ec-4eae-abe8-34626e112709",
+          "farmer_id": "1055a0da-2317-441d-8f94-65f0fb6e1b12",
+          "purpose": ["seeds"],
+          "season": "Paper Doll",
+          "due_date": "2023-06-20T17:53:23.118Z",
+          "amount": 135928025.56
+        },
+        {
+          "id": "c2d7af43-b152-40b1-94dc-c7379496e1e7",
+          "farmer_id": "1055a0da-2317-441d-8f94-65f0fb6e1b12",
+          "purpose": ["seeds"],
+          "season": "Don't You Want Me",
+          "due_date": "2023-10-31T17:04:18.492Z",
+          "amount": 820815638.52
+        }
+      ]
+    },
+    {
+      "id": "60a5ca0b-27c8-42be-8bc0-8bdfe4360300",
+      "farmer": {
+        "firstName": "Thomas",
+        "lastName": "Ledner"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "3698d19e-fb4b-4978-b6f6-843f4294ac63",
+          "farmer_id": "d2097e7d-52c7-49be-a49a-2b302299e4b6",
+          "purpose": ["chemicals"],
+          "season": "The Thing",
+          "due_date": "2023-11-13T16:49:39.980Z",
+          "amount": 570021466.16
+        },
+        {
+          "id": "80d5a21c-b332-4ee2-8a8d-8a0ec2ef7a24",
+          "farmer_id": "d2097e7d-52c7-49be-a49a-2b302299e4b6",
+          "purpose": ["fertilizer"],
+          "season": "Umbrella",
+          "due_date": "2023-09-25T05:17:45.175Z",
+          "amount": 532786707.06
+        },
+        {
+          "id": "42d08d56-6743-49e7-bf68-114946bd57ef",
+          "farmer_id": "d2097e7d-52c7-49be-a49a-2b302299e4b6",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Bette Davis Eyes",
+          "due_date": "2023-05-13T13:03:23.215Z",
+          "amount": 54076016.25
+        }
+      ]
+    },
+    {
+      "id": "979956e7-0e88-4fe9-9136-41a3d2a944c7",
+      "farmer": {
+        "firstName": "Jodi",
+        "lastName": "Bashirian"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "109cbc74-9890-4fc3-9ca1-8531dd355c81",
+          "farmer_id": "eff0c3e3-ba41-45fa-af5a-535e57060758",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Runaround Sue",
+          "due_date": "2023-04-05T13:02:44.214Z",
+          "amount": 695235287.93
+        },
+        {
+          "id": "96970b29-6051-4c9e-89c5-6219cfc0bbfd",
+          "farmer_id": "eff0c3e3-ba41-45fa-af5a-535e57060758",
+          "purpose": ["chemicals"],
+          "season": "That'll Be the Day",
+          "due_date": "2023-07-24T23:05:54.052Z",
+          "amount": 410671898.15
+        },
+        {
+          "id": "d46eb8b6-4691-4ac0-b59a-46f7babfa0d3",
+          "farmer_id": "eff0c3e3-ba41-45fa-af5a-535e57060758",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "One",
+          "due_date": "2023-09-30T13:29:24.333Z",
+          "amount": 21682358.98
+        },
+        {
+          "id": "66326bf7-cf03-4bb9-b993-b6e82ea70299",
+          "farmer_id": "eff0c3e3-ba41-45fa-af5a-535e57060758",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Vogue",
+          "due_date": "2023-08-29T21:34:46.357Z",
+          "amount": 475726224.61
+        }
+      ]
+    },
+    {
+      "id": "2d54356f-763c-467f-acfd-6bee26bb3466",
+      "farmer": {
+        "firstName": "Dave",
+        "lastName": "Conroy"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "fee10944-be66-4474-acdf-e52a2f0ffd6f",
+          "farmer_id": "72985f94-7665-4fc7-9115-879ec5e7902e",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Sleepy Lagoon",
+          "due_date": "2023-11-25T18:35:18.099Z",
+          "amount": 576649585.38
+        }
+      ]
+    },
+    {
+      "id": "dedd7ceb-2c11-454d-a1eb-e2efda1d2f47",
+      "farmer": {
+        "firstName": "Jake",
+        "lastName": "Volkman"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "56da4414-5a9a-40ee-aac5-bc833a8a24bb",
+          "farmer_id": "be99677c-5342-495f-bb1f-03b423981472",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Yesterday",
+          "due_date": "2023-10-01T04:45:54.283Z",
+          "amount": 169424291.83
+        },
+        {
+          "id": "20dcf5d2-055c-40c4-9411-7b076e8ab033",
+          "farmer_id": "be99677c-5342-495f-bb1f-03b423981472",
+          "purpose": ["chemicals", "seeds"],
+          "season": "How Much is That Doggy in the Window?",
+          "due_date": "2023-02-23T10:34:28.201Z",
+          "amount": 128851702.05
+        },
+        {
+          "id": "9e475ed1-17d9-4b58-958b-30ad9ccb09cc",
+          "farmer_id": "be99677c-5342-495f-bb1f-03b423981472",
+          "purpose": ["chemicals"],
+          "season": "Maniac",
+          "due_date": "2023-08-15T01:08:56.813Z",
+          "amount": 466729627.92
+        },
+        {
+          "id": "1930d563-86e1-428e-8e23-e2421a91879f",
+          "farmer_id": "be99677c-5342-495f-bb1f-03b423981472",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "You Really Got Me",
+          "due_date": "2023-01-31T07:25:05.613Z",
+          "amount": 399555811.52
+        }
+      ]
+    },
+    {
+      "id": "69f937f9-33ef-4779-99d3-76d7ac821f04",
+      "farmer": {
+        "firstName": "Anthony",
+        "lastName": "Schroeder"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "80c98eb8-e2dd-4cbc-898b-807df38a0012",
+          "farmer_id": "aad33ed5-c0d8-4d84-a720-e4d709679e17",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Help!",
+          "due_date": "2023-06-22T18:51:41.379Z",
+          "amount": 760259339.5
+        },
+        {
+          "id": "ff6a739f-ca04-4df4-9a2c-1d47835f021f",
+          "farmer_id": "aad33ed5-c0d8-4d84-a720-e4d709679e17",
+          "purpose": ["chemicals"],
+          "season": "One More Try",
+          "due_date": "2023-12-24T07:18:06.957Z",
+          "amount": 209075762.51
+        },
+        {
+          "id": "d9d10aa7-0fc9-4189-bcb0-df53531df390",
+          "farmer_id": "aad33ed5-c0d8-4d84-a720-e4d709679e17",
+          "purpose": ["fertilizer"],
+          "season": "Louie Louie",
+          "due_date": "2023-08-05T05:24:42.748Z",
+          "amount": 368015013.69
+        },
+        {
+          "id": "8620d6bf-5c34-4168-a543-7403afbd32f6",
+          "farmer_id": "aad33ed5-c0d8-4d84-a720-e4d709679e17",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Gives You Hell",
+          "due_date": "2023-10-29T11:24:14.430Z",
+          "amount": 769671272.1
+        }
+      ]
+    },
+    {
+      "id": "84b5de76-ff14-4449-9a7c-0bdf4e72370c",
+      "farmer": {
+        "firstName": "Cody",
+        "lastName": "Schmeler"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "0a54b0c8-8579-4ed2-9879-f0a5de8f8500",
+          "farmer_id": "4d7d036b-41b2-429c-a8b8-4dbba7e06ecd",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Tears in Heaven",
+          "due_date": "2023-05-28T16:07:25.636Z",
+          "amount": 108085228.68
+        }
+      ]
+    },
+    {
+      "id": "b09614ab-bd76-46ad-b398-fe779194eea6",
+      "farmer": {
+        "firstName": "Diane",
+        "lastName": "Lemke"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "1e663b23-c78b-4e5d-aac5-09c587e56628",
+          "farmer_id": "cd1ee7ba-6d5d-4be2-86f3-97ceac8a2209",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Woman",
+          "due_date": "2023-09-03T21:07:34.181Z",
+          "amount": 688596977.58
+        },
+        {
+          "id": "65cd3f42-6498-44b2-b912-5645a16c7513",
+          "farmer_id": "cd1ee7ba-6d5d-4be2-86f3-97ceac8a2209",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Faith",
+          "due_date": "2023-10-28T02:13:54.152Z",
+          "amount": 316566594.45
+        }
+      ]
+    },
+    {
+      "id": "549c243d-7da4-44fb-b461-f2084e6272dd",
+      "farmer": {
+        "firstName": "Melody",
+        "lastName": "Lang"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "966dba56-ebb0-4905-a01f-75ebc39a9591",
+          "farmer_id": "bb44879b-0bb4-46d8-9a36-59526ba5a41a",
+          "purpose": ["seeds"],
+          "season": "I'll Never Smile Again",
+          "due_date": "2023-05-26T14:52:45.509Z",
+          "amount": 490206166.31
+        },
+        {
+          "id": "46092c5d-9548-4b40-b70a-2b706579890d",
+          "farmer_id": "bb44879b-0bb4-46d8-9a36-59526ba5a41a",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "I Fall to Pieces",
+          "due_date": "2023-04-24T18:58:39.211Z",
+          "amount": 722572361.46
+        }
+      ]
+    },
+    {
+      "id": "c67d4c82-7c79-4c6a-b9a2-64853b4bd06b",
+      "farmer": {
+        "firstName": "Frances",
+        "lastName": "Bode"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "991bee55-4ae4-4994-8929-bbb0530ee031",
+          "farmer_id": "56461f36-3893-4b9a-bdaa-5d73dceea6c0",
+          "purpose": ["chemicals"],
+          "season": "I'll Make Love to You",
+          "due_date": "2023-01-28T04:39:00.017Z",
+          "amount": 291048232.3
+        },
+        {
+          "id": "00078860-247f-41e4-a805-81ae51e2076e",
+          "farmer_id": "56461f36-3893-4b9a-bdaa-5d73dceea6c0",
+          "purpose": ["fertilizer"],
+          "season": "Mr Big Stuff",
+          "due_date": "2023-11-28T23:21:18.879Z",
+          "amount": 405936955.55
+        },
+        {
+          "id": "62fb5a5b-b0ba-4277-ab68-aace3786f073",
+          "farmer_id": "56461f36-3893-4b9a-bdaa-5d73dceea6c0",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Freebird",
+          "due_date": "2023-10-26T22:48:38.911Z",
+          "amount": 500314483.74
+        }
+      ]
+    },
+    {
+      "id": "024d8719-d2e0-4da1-b377-db7d4a1ff949",
+      "farmer": {
+        "firstName": "Lillian",
+        "lastName": "Roberts"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "a9a2db6d-9488-4fc5-af93-f7784731c09e",
+          "farmer_id": "bb2d150e-7823-4132-857c-2ac5c647e52e",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "If (They Made Me a King)",
+          "due_date": "2023-09-01T19:08:27.197Z",
+          "amount": 323700368.81
+        },
+        {
+          "id": "5dd9df01-7deb-411b-a56e-fccd9302844d",
+          "farmer_id": "bb2d150e-7823-4132-857c-2ac5c647e52e",
+          "purpose": ["seeds"],
+          "season": "Tha Crossroads",
+          "due_date": "2023-07-23T08:05:02.519Z",
+          "amount": 507644839.71
+        }
+      ]
+    },
+    {
+      "id": "9bbe81d6-030e-4e2b-9be5-8629847b48a9",
+      "farmer": {
+        "firstName": "Sophia",
+        "lastName": "Dare"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "d4e315be-b299-49e6-9320-0a2f82e3e21e",
+          "farmer_id": "af8ae014-6004-43a3-a80e-f5a2738055c9",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Makin' Whoopee",
+          "due_date": "2023-04-03T14:17:55.778Z",
+          "amount": 532788768.99
+        },
+        {
+          "id": "6880038b-8cfa-42e4-9504-400ff150db9d",
+          "farmer_id": "af8ae014-6004-43a3-a80e-f5a2738055c9",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Mood Indigo",
+          "due_date": "2023-07-08T01:26:16.183Z",
+          "amount": 452313611.11
+        },
+        {
+          "id": "79957e75-1e12-472e-97f8-daeff82c2bb0",
+          "farmer_id": "af8ae014-6004-43a3-a80e-f5a2738055c9",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Hound Dog",
+          "due_date": "2023-05-14T12:42:50.242Z",
+          "amount": 665911817.05
+        },
+        {
+          "id": "0c8ce41b-a657-4f7f-bccf-1bdf256c85a8",
+          "farmer_id": "af8ae014-6004-43a3-a80e-f5a2738055c9",
+          "purpose": ["fertilizer"],
+          "season": "Dancing in the Dark",
+          "due_date": "2023-12-18T12:18:36.724Z",
+          "amount": 247656035.74
+        }
+      ]
+    },
+    {
+      "id": "30abd35f-509e-4902-b4f2-ef27f8391dd1",
+      "farmer": {
+        "firstName": "Lynn",
+        "lastName": "Thiel"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "b1345252-f02c-4b79-b724-afb07e01b997",
+          "farmer_id": "1c6efc51-879b-4f46-ad64-37593e7ab4b6",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Beautiful Day",
+          "due_date": "2023-04-23T15:50:59.387Z",
+          "amount": 131705789.77
+        },
+        {
+          "id": "1e66e13e-619a-4e9e-a2c8-2987ed168b15",
+          "farmer_id": "1c6efc51-879b-4f46-ad64-37593e7ab4b6",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Chances Are",
+          "due_date": "2023-12-28T07:03:47.166Z",
+          "amount": 966192540.22
+        },
+        {
+          "id": "3f11f95b-5b2b-42f4-a6a8-66dd5751dcb8",
+          "farmer_id": "1c6efc51-879b-4f46-ad64-37593e7ab4b6",
+          "purpose": ["chemicals"],
+          "season": "Begin the Beguine",
+          "due_date": "2023-10-26T02:18:11.092Z",
+          "amount": 251123412.57
+        },
+        {
+          "id": "78e8f158-ccd8-47c4-8300-96373293ed7b",
+          "farmer_id": "1c6efc51-879b-4f46-ad64-37593e7ab4b6",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Love Is Blue (L'Amour Est Bleu)",
+          "due_date": "2023-11-25T05:15:52.376Z",
+          "amount": 660351018.68
+        }
+      ]
+    },
+    {
+      "id": "8f926c27-b262-40e3-9400-72bfe8ac9081",
+      "farmer": {
+        "firstName": "Leslie",
+        "lastName": "Fahey"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "4fd1e0a6-9c5f-460d-8fc2-13fc0c8090ce",
+          "farmer_id": "0b4bf5b3-804b-4059-a86f-ab1cd3fb4711",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Right Back Where We Started From",
+          "due_date": "2023-03-23T08:57:17.679Z",
+          "amount": 543018244.46
+        },
+        {
+          "id": "95bad3c8-9561-43ba-bd0c-56f33ef76e0a",
+          "farmer_id": "0b4bf5b3-804b-4059-a86f-ab1cd3fb4711",
+          "purpose": ["fertilizer"],
+          "season": "Ring My Bell",
+          "due_date": "2023-04-11T05:57:03.876Z",
+          "amount": 404939403.1
+        },
+        {
+          "id": "d6c448dd-4d10-44d8-b1bf-ee1573e2a0ac",
+          "farmer_id": "0b4bf5b3-804b-4059-a86f-ab1cd3fb4711",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Till I Waltz Again With You",
+          "due_date": "2023-04-16T21:42:45.402Z",
+          "amount": 185770330.59
+        },
+        {
+          "id": "22e6d7d8-5cbf-4cd3-9bf9-2bc5e2758cad",
+          "farmer_id": "0b4bf5b3-804b-4059-a86f-ab1cd3fb4711",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Wanted",
+          "due_date": "2023-01-24T14:13:35.442Z",
+          "amount": 759578438.45
+        }
+      ]
+    },
+    {
+      "id": "60a3c728-7552-427b-b83f-676f12d49a31",
+      "farmer": {
+        "firstName": "Candace",
+        "lastName": "Skiles"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "61f63544-e717-42ef-8917-5e4648d39848",
+          "farmer_id": "fea7b89b-3396-4d2f-83f8-3fef9497ac3f",
+          "purpose": ["fertilizer"],
+          "season": "Save the Best For Last",
+          "due_date": "2023-06-11T15:35:24.154Z",
+          "amount": 276521049.74
+        }
+      ]
+    },
+    {
+      "id": "29f20e39-61ed-42a7-8b98-07c226b2b310",
+      "farmer": {
+        "firstName": "Tanya",
+        "lastName": "Considine"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "dbfd2cbf-91fe-4362-9533-40ab94af5706",
+          "farmer_id": "e12f9011-3695-42a6-ba99-a559658dcaba",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "I Honestly Love You",
+          "due_date": "2023-12-07T17:40:25.088Z",
+          "amount": 992148552.09
+        },
+        {
+          "id": "04012659-e0bc-4604-8057-0729e3c26973",
+          "farmer_id": "e12f9011-3695-42a6-ba99-a559658dcaba",
+          "purpose": ["fertilizer"],
+          "season": "Lose Yourself",
+          "due_date": "2023-03-03T16:44:48.950Z",
+          "amount": 748628017.08
+        },
+        {
+          "id": "c30420e6-4fb5-4ce3-82ef-829c5092f105",
+          "farmer_id": "e12f9011-3695-42a6-ba99-a559658dcaba",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "What a Fool Believes",
+          "due_date": "2023-11-14T01:07:54.722Z",
+          "amount": 481942912.22
+        }
+      ]
+    },
+    {
+      "id": "8e11ad53-20af-4b91-bc28-8caeb75411c9",
+      "farmer": {
+        "firstName": "Earnest",
+        "lastName": "Hand"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "07e48507-4d8f-4d53-b4bb-2992667b27a7",
+          "farmer_id": "2cb49b02-f0a0-4694-8c04-b67c68ed3ae4",
+          "purpose": ["fertilizer"],
+          "season": "House of the Rising Sun",
+          "due_date": "2023-04-18T23:13:18.204Z",
+          "amount": 42368913.1
+        },
+        {
+          "id": "f451d6cf-277e-4701-af35-e3b532aa8aa3",
+          "farmer_id": "2cb49b02-f0a0-4694-8c04-b67c68ed3ae4",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Me & Mrs Jones",
+          "due_date": "2023-11-01T07:04:30.778Z",
+          "amount": 509790231.56
+        }
+      ]
+    },
+    {
+      "id": "d2a9b953-41cf-4de8-a12f-1e695f3a0bb4",
+      "farmer": {
+        "firstName": "Lynette",
+        "lastName": "Bernier"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "416f7654-12b9-4858-bd1e-f128ffea1422",
+          "farmer_id": "07e724ce-a25e-4da4-93d0-73d0b7e5bae1",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Begin the Beguine",
+          "due_date": "2023-12-22T07:28:28.720Z",
+          "amount": 600715505.36
+        }
+      ]
+    },
+    {
+      "id": "b5f6bb77-f58e-4a1d-9df1-4d11403aff08",
+      "farmer": {
+        "firstName": "Phillip",
+        "lastName": "Murray"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "29b9cba6-db7b-4800-a789-6b78a60e0a05",
+          "farmer_id": "746d9876-4c3f-416d-a9a7-594a0d571a21",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Touch Me",
+          "due_date": "2023-05-05T04:24:58.614Z",
+          "amount": 411468543.05
+        },
+        {
+          "id": "275d9483-fd89-427d-8137-9ddc3aca6cb0",
+          "farmer_id": "746d9876-4c3f-416d-a9a7-594a0d571a21",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "This Diamond Ring",
+          "due_date": "2023-10-21T10:28:08.142Z",
+          "amount": 60620702.37
+        }
+      ]
+    },
+    {
+      "id": "2d97e39b-5de6-4d00-b5a7-dbd34f1c3438",
+      "farmer": {
+        "firstName": "Emma",
+        "lastName": "Wunsch"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "63334639-724a-4307-a52a-a24d348a1989",
+          "farmer_id": "630c5d7c-8474-49f9-8356-136616ed9f68",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Rock the Boat",
+          "due_date": "2024-01-07T01:15:12.395Z",
+          "amount": 206196165.42
+        },
+        {
+          "id": "6b6ddbe1-ceed-4658-90e7-a2a07b577099",
+          "farmer_id": "630c5d7c-8474-49f9-8356-136616ed9f68",
+          "purpose": ["seeds"],
+          "season": "(Everything I Do) I Do it For You",
+          "due_date": "2023-12-16T07:34:02.243Z",
+          "amount": 51105473.4
+        },
+        {
+          "id": "8d780d42-af88-438e-a45e-574f37ab80b6",
+          "farmer_id": "630c5d7c-8474-49f9-8356-136616ed9f68",
+          "purpose": ["chemicals"],
+          "season": "Mercy Mercy Me (The Ecology)",
+          "due_date": "2023-11-19T13:02:26.839Z",
+          "amount": 49400084.92
+        }
+      ]
+    },
+    {
+      "id": "288f8e00-1e43-44da-9cfc-dac65f80d05c",
+      "farmer": {
+        "firstName": "Florence",
+        "lastName": "Dickinson"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "2783e84c-6059-441f-834b-565161ba0dcd",
+          "farmer_id": "79ac8110-2e0b-4b11-a57d-b13df0743d66",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "(Sexual) Healing",
+          "due_date": "2023-06-27T03:34:25.847Z",
+          "amount": 595848820.35
+        }
+      ]
+    },
+    {
+      "id": "42001408-3e58-42a5-9a5e-d02b27e0fe3c",
+      "farmer": {
+        "firstName": "Kellie",
+        "lastName": "Bins"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "a5a3ad32-bf43-48d6-8f8c-1dfb6d90c2e2",
+          "farmer_id": "28da70e1-da12-42eb-84a7-d3f4c5960d95",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Grenade",
+          "due_date": "2023-05-11T02:54:19.180Z",
+          "amount": 330527825.86
+        }
+      ]
+    },
+    {
+      "id": "f76a7842-487d-4b85-83b0-21ec41aa6194",
+      "farmer": {
+        "firstName": "April",
+        "lastName": "Watsica"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "19d173ef-996e-4f6e-9778-ab3231904348",
+          "farmer_id": "1d1d8047-b91a-466a-a970-3f6e9e50504f",
+          "purpose": ["seeds"],
+          "season": "Here Without You",
+          "due_date": "2023-12-05T13:09:52.151Z",
+          "amount": 917009278.09
+        },
+        {
+          "id": "6f765ef8-02f7-4ef8-b4ad-5537a2e88792",
+          "farmer_id": "1d1d8047-b91a-466a-a970-3f6e9e50504f",
+          "purpose": ["chemicals"],
+          "season": "Louie Louie",
+          "due_date": "2023-01-21T03:21:18.239Z",
+          "amount": 47575744.92
+        },
+        {
+          "id": "8041eadd-9a1b-4130-9929-dfcfe0ecd246",
+          "farmer_id": "1d1d8047-b91a-466a-a970-3f6e9e50504f",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "For What It's Worth (Stop",
+          "due_date": "2023-10-08T04:13:50.925Z",
+          "amount": 488314249.29
+        }
+      ]
+    },
+    {
+      "id": "ae78abea-8cba-4760-af2e-084a94a4a970",
+      "farmer": {
+        "firstName": "Alberto",
+        "lastName": "Breitenberg"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "9f310850-b926-47e7-a6e2-f9d4e0d14b39",
+          "farmer_id": "4cc9147d-2315-4cea-94ed-1cc247b032df",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Monday Monday",
+          "due_date": "2023-08-03T01:54:46.358Z",
+          "amount": 470381586.85
+        },
+        {
+          "id": "5f771667-944a-4dc6-adc0-f98019a6aca7",
+          "farmer_id": "4cc9147d-2315-4cea-94ed-1cc247b032df",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Leader of the Pack",
+          "due_date": "2023-10-29T04:26:11.201Z",
+          "amount": 513387555.69
+        },
+        {
+          "id": "3a873002-975a-459d-89e9-9e934f626358",
+          "farmer_id": "4cc9147d-2315-4cea-94ed-1cc247b032df",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Ironic",
+          "due_date": "2023-11-26T11:05:21.513Z",
+          "amount": 835212596.94
+        },
+        {
+          "id": "9797cefc-65d9-4909-9304-4a290c2d6ef5",
+          "farmer_id": "4cc9147d-2315-4cea-94ed-1cc247b032df",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Get Off of My Cloud",
+          "due_date": "2023-03-29T20:02:57.245Z",
+          "amount": 592556082.23
+        }
+      ]
+    },
+    {
+      "id": "230b6e84-9cf7-43b9-ba39-af558faa5ece",
+      "farmer": {
+        "firstName": "Sadie",
+        "lastName": "Walker"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "15257b21-1cd1-4afb-b486-b9fa76974081",
+          "farmer_id": "26159f92-a024-4b31-a306-b2204d61a5b7",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "American Pie",
+          "due_date": "2023-08-04T13:24:04.648Z",
+          "amount": 388548340.94
+        }
+      ]
+    },
+    {
+      "id": "26bb97bd-5041-4789-96fb-3769168a563b",
+      "farmer": {
+        "firstName": "Christopher",
+        "lastName": "Kassulke"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "28802aa6-a615-4951-8a59-a2eaee00bed4",
+          "farmer_id": "409d8341-cd65-422f-9b33-e15211254af0",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Buttons & Bows",
+          "due_date": "2023-07-02T03:12:25.725Z",
+          "amount": 339708109.42
+        },
+        {
+          "id": "b7d68f1b-93db-447b-b26f-0c6b7cf23f02",
+          "farmer_id": "409d8341-cd65-422f-9b33-e15211254af0",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Cars",
+          "due_date": "2023-09-30T13:59:29.916Z",
+          "amount": 807407815.8
+        },
+        {
+          "id": "db5ed52b-77e7-4173-8adc-f6896dcc1cda",
+          "farmer_id": "409d8341-cd65-422f-9b33-e15211254af0",
+          "purpose": ["fertilizer"],
+          "season": "My Life",
+          "due_date": "2023-01-21T19:42:01.486Z",
+          "amount": 211379191.47
+        },
+        {
+          "id": "ac749188-e0bc-453a-a50d-0af8628b14d3",
+          "farmer_id": "409d8341-cd65-422f-9b33-e15211254af0",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Be My Love",
+          "due_date": "2023-09-27T06:23:28.680Z",
+          "amount": 508918529.8
+        }
+      ]
+    },
+    {
+      "id": "ce11d097-24a1-430a-a8be-78cd775d7a45",
+      "farmer": {
+        "firstName": "Linda",
+        "lastName": "Runolfsson"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "4bfcf98d-b4b8-44c7-adfd-184e5571544c",
+          "farmer_id": "c502b643-9a6b-414b-9c4d-e98d5e9f3936",
+          "purpose": ["seeds"],
+          "season": "Blurred Lines",
+          "due_date": "2023-03-14T03:18:34.245Z",
+          "amount": 342197306.27
+        },
+        {
+          "id": "9e606d61-3cfb-45ac-9e38-fbee635d9ea0",
+          "farmer_id": "c502b643-9a6b-414b-9c4d-e98d5e9f3936",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Something",
+          "due_date": "2023-08-19T22:32:49.841Z",
+          "amount": 371762286
+        },
+        {
+          "id": "f08cf381-6a5e-4977-9008-eeb7bed41ee0",
+          "farmer_id": "c502b643-9a6b-414b-9c4d-e98d5e9f3936",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Down Hearted Blues",
+          "due_date": "2023-02-02T18:33:40.279Z",
+          "amount": 875059637.12
+        }
+      ]
+    },
+    {
+      "id": "b9b0e1be-c05c-4562-b90c-4f4da456a571",
+      "farmer": {
+        "firstName": "Alberto",
+        "lastName": "Larkin"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "6e9af66b-ea0c-496a-96e9-7318f62e55a7",
+          "farmer_id": "2acc75dd-9323-44e5-bbf7-bc52368b10dc",
+          "purpose": ["fertilizer"],
+          "season": "Bitter Sweet Symphony",
+          "due_date": "2023-10-21T03:02:32.376Z",
+          "amount": 162762887.94
+        },
+        {
+          "id": "a3b25663-a5d9-4b5f-8378-7a9f2571323b",
+          "farmer_id": "2acc75dd-9323-44e5-bbf7-bc52368b10dc",
+          "purpose": ["chemicals", "seeds"],
+          "season": "(It's No) Sin",
+          "due_date": "2023-04-10T19:11:31.916Z",
+          "amount": 376855264.07
+        },
+        {
+          "id": "7c88e229-68d2-47c4-8b19-46c9054777f8",
+          "farmer_id": "2acc75dd-9323-44e5-bbf7-bc52368b10dc",
+          "purpose": ["seeds", "chemicals"],
+          "season": "He's a Rebel",
+          "due_date": "2023-07-30T14:38:29.235Z",
+          "amount": 922723450.49
+        },
+        {
+          "id": "3e563de5-1f14-440d-b373-f637ffa7c681",
+          "farmer_id": "2acc75dd-9323-44e5-bbf7-bc52368b10dc",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Since U Been Gone",
+          "due_date": "2023-11-30T06:05:20.427Z",
+          "amount": 984234625.22
+        }
+      ]
+    },
+    {
+      "id": "c7ec4b4a-1a85-4633-a6cd-7c2d7b904c9f",
+      "farmer": {
+        "firstName": "Teresa",
+        "lastName": "Smith"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "6498cc6c-5f78-48dc-8f09-a11a549f234a",
+          "farmer_id": "d339f070-b563-4a4f-8a3a-6c7c599d2162",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Baby Baby",
+          "due_date": "2023-02-06T22:13:40.341Z",
+          "amount": 123710278.46
+        }
+      ]
+    },
+    {
+      "id": "cca20c76-0372-481d-9374-2c367f5e8604",
+      "farmer": {
+        "firstName": "Johnnie",
+        "lastName": "Beer"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "4c4c3f7a-bc20-4211-958b-9e0dfabe8e45",
+          "farmer_id": "659098f8-cd7a-460d-8cdb-b09201a88623",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "How Will I Know",
+          "due_date": "2023-10-28T02:19:29.369Z",
+          "amount": 952603357.52
+        }
+      ]
+    },
+    {
+      "id": "3f99d281-be77-4ed8-9043-1cd6f0f9e295",
+      "farmer": {
+        "firstName": "Grady",
+        "lastName": "Armstrong"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "d8877901-33bb-488e-9403-ff87e1fe2651",
+          "farmer_id": "404ff69e-8bb6-4adb-8d65-5be2e525cf26",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "The Gypsy",
+          "due_date": "2023-08-26T14:56:11.698Z",
+          "amount": 162344283.82
+        },
+        {
+          "id": "3cb4ccd2-ee7c-4af2-be6d-8d9b8b915d8c",
+          "farmer_id": "404ff69e-8bb6-4adb-8d65-5be2e525cf26",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Come Together",
+          "due_date": "2023-07-23T08:43:11.902Z",
+          "amount": 391532168.74
+        },
+        {
+          "id": "9215fe06-6959-4168-80dd-2ea7b37f0028",
+          "farmer_id": "404ff69e-8bb6-4adb-8d65-5be2e525cf26",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "We Are the World",
+          "due_date": "2023-06-09T12:33:25.631Z",
+          "amount": 17781235.11
+        }
+      ]
+    },
+    {
+      "id": "a74e2cdf-62d4-4124-9eab-2232e19531c1",
+      "farmer": {
+        "firstName": "Dwight",
+        "lastName": "Johnson"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "84a2c8a6-f6ba-49e4-b9ae-0f001df35303",
+          "farmer_id": "11328995-e704-4323-bacb-051c7252c849",
+          "purpose": ["fertilizer"],
+          "season": "Thrift Shop",
+          "due_date": "2023-12-20T10:12:17.811Z",
+          "amount": 331525398.8
+        },
+        {
+          "id": "c168430c-bc07-4364-847a-288ebf912f59",
+          "farmer_id": "11328995-e704-4323-bacb-051c7252c849",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Because I Love You (The Postman Song)",
+          "due_date": "2023-06-06T16:12:53.499Z",
+          "amount": 737579766.62
+        }
+      ]
+    },
+    {
+      "id": "72a00643-d5be-4db9-a1d3-3a5c21eb45b7",
+      "farmer": {
+        "firstName": "Latoya",
+        "lastName": "Bogisich"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "ed3aa554-4c9e-4786-9173-c2e02347168f",
+          "farmer_id": "2dcd1886-308c-4d9f-932a-570ff07aac9d",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "That's the Way Love Goes",
+          "due_date": "2023-10-09T11:50:57.713Z",
+          "amount": 364657524.15
+        },
+        {
+          "id": "cfa20984-0b3b-4adc-b13a-afd4ad25fe51",
+          "farmer_id": "2dcd1886-308c-4d9f-932a-570ff07aac9d",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Spirit in the Sky",
+          "due_date": "2023-09-18T22:37:01.708Z",
+          "amount": 77302321.24
+        },
+        {
+          "id": "70266a54-f4dd-4268-826f-27c5a16e2b83",
+          "farmer_id": "2dcd1886-308c-4d9f-932a-570ff07aac9d",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Great Balls of Fire",
+          "due_date": "2023-05-20T20:13:05.869Z",
+          "amount": 314018864.56
+        }
+      ]
+    },
+    {
+      "id": "fe366c21-1986-4085-9d1d-ea4b728bbf4b",
+      "farmer": {
+        "firstName": "Lyle",
+        "lastName": "Strosin"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "143ae8da-9d55-4129-953b-eb23645eccd8",
+          "farmer_id": "565b1bd8-eaff-400e-9855-ac758776af94",
+          "purpose": ["seeds"],
+          "season": "Queen of Hearts",
+          "due_date": "2023-03-25T09:42:40.836Z",
+          "amount": 570098141.41
+        },
+        {
+          "id": "cbbb6d4d-2661-4c9f-bdcf-b86ae2f3bcfa",
+          "farmer_id": "565b1bd8-eaff-400e-9855-ac758776af94",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "White Rabbit",
+          "due_date": "2023-05-18T19:00:07.795Z",
+          "amount": 914674353.75
+        },
+        {
+          "id": "a7cd777e-9d7a-4d75-a890-b22f2a6fc11a",
+          "farmer_id": "565b1bd8-eaff-400e-9855-ac758776af94",
+          "purpose": ["fertilizer"],
+          "season": "Chapel of Love",
+          "due_date": "2023-09-13T09:10:37.218Z",
+          "amount": 131796470.34
+        },
+        {
+          "id": "b2ef4ca1-ac7a-4ab3-9d46-e2b96a28cb26",
+          "farmer_id": "565b1bd8-eaff-400e-9855-ac758776af94",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "God Bless America",
+          "due_date": "2023-03-13T10:00:01.398Z",
+          "amount": 854851624.11
+        }
+      ]
+    },
+    {
+      "id": "04c29958-30bf-4d76-a057-cabb06ba57f0",
+      "farmer": {
+        "firstName": "Sean",
+        "lastName": "Kessler"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "33dc4f0c-3209-4346-9317-7183604dcd87",
+          "farmer_id": "581366c8-f4bb-44e5-a60b-83c579d37797",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "Chain of Fools",
+          "due_date": "2023-06-01T00:58:17.816Z",
+          "amount": 415001046.14
+        },
+        {
+          "id": "43878e44-6c23-41e9-8509-66751136c592",
+          "farmer_id": "581366c8-f4bb-44e5-a60b-83c579d37797",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "I Don't Want to Miss a Thing",
+          "due_date": "2023-04-07T00:18:36.991Z",
+          "amount": 148592198.59
+        },
+        {
+          "id": "623514e2-9a9a-449f-9028-ddaf8b200cc7",
+          "farmer_id": "581366c8-f4bb-44e5-a60b-83c579d37797",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "White Christmas",
+          "due_date": "2023-06-17T22:11:19.484Z",
+          "amount": 347790840.77
+        }
+      ]
+    },
+    {
+      "id": "1c678618-4930-4fd5-b151-3e3eff06ef90",
+      "farmer": {
+        "firstName": "Hector",
+        "lastName": "Bergnaum"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "33fda3eb-e06a-4503-951a-abfa333a02f4",
+          "farmer_id": "edefef36-72a1-4934-858d-88e0beefec8a",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Kiss You All Over",
+          "due_date": "2023-06-21T14:39:17.442Z",
+          "amount": 793886083.46
+        },
+        {
+          "id": "91c63453-2e75-436d-895e-8cccc7cfa88f",
+          "farmer_id": "edefef36-72a1-4934-858d-88e0beefec8a",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Believe",
+          "due_date": "2023-02-13T19:43:26.072Z",
+          "amount": 987942537.44
+        },
+        {
+          "id": "317321f1-4598-41dd-a063-7caec122a398",
+          "farmer_id": "edefef36-72a1-4934-858d-88e0beefec8a",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "I'll Take You There",
+          "due_date": "2023-04-20T08:38:05.209Z",
+          "amount": 503841729.11
+        }
+      ]
+    },
+    {
+      "id": "78ac9c7b-f7f1-4127-8094-07848d15c85f",
+      "farmer": {
+        "firstName": "Agnes",
+        "lastName": "Koelpin"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "a6e84a7b-1116-4bf9-b445-c71701c33570",
+          "farmer_id": "a6d20293-0703-49b7-a467-c954673b3636",
+          "purpose": ["chemicals"],
+          "season": "Firework",
+          "due_date": "2023-04-17T12:33:19.884Z",
+          "amount": 406655554.53
+        },
+        {
+          "id": "8d1366bd-2470-4632-a02b-c10ad3c0798e",
+          "farmer_id": "a6d20293-0703-49b7-a467-c954673b3636",
+          "purpose": ["seeds"],
+          "season": "Straight Up",
+          "due_date": "2023-11-22T10:29:09.745Z",
+          "amount": 110766452.55
+        },
+        {
+          "id": "2f6262e1-7855-4bf5-bc61-9720db3d438e",
+          "farmer_id": "a6d20293-0703-49b7-a467-c954673b3636",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "(I Can't Get No) Satisfaction",
+          "due_date": "2023-08-22T08:03:30.239Z",
+          "amount": 16925963.81
+        },
+        {
+          "id": "047c5c3f-a54c-4b40-890e-c41149675446",
+          "farmer_id": "a6d20293-0703-49b7-a467-c954673b3636",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Love is a Many Splendoured Thing",
+          "due_date": "2023-01-13T01:21:09.195Z",
+          "amount": 610118816.33
+        }
+      ]
+    },
+    {
+      "id": "55730aef-0617-41dc-9464-85a2d3a3c799",
+      "farmer": {
+        "firstName": "Brent",
+        "lastName": "Armstrong"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "6488fbf5-e772-4014-b4a7-081f14451857",
+          "farmer_id": "d40acbe0-8dcd-4faf-ae5a-ed7f1cd1d88c",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Don't Be Cruel",
+          "due_date": "2023-12-06T07:38:07.715Z",
+          "amount": 685669222.06
+        }
+      ]
+    },
+    {
+      "id": "9fd284b6-3cf1-42c5-9682-f8af3a74e488",
+      "farmer": {
+        "firstName": "Carmen",
+        "lastName": "Rempel"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "efeba2c9-866e-46d8-a037-0c52761976bc",
+          "farmer_id": "f94a9ea3-ba2d-4e07-bbdc-64812bed49e7",
+          "purpose": ["seeds"],
+          "season": "Sweet Home Alabama",
+          "due_date": "2023-06-23T13:41:47.525Z",
+          "amount": 302203106.73
+        },
+        {
+          "id": "d19aad37-a2c8-416d-9040-4f71dd46fe07",
+          "farmer_id": "f94a9ea3-ba2d-4e07-bbdc-64812bed49e7",
+          "purpose": ["chemicals"],
+          "season": "I Think I Love You",
+          "due_date": "2023-10-27T06:11:33.203Z",
+          "amount": 772624826.4
+        },
+        {
+          "id": "82e9f9ba-e180-4da6-b18a-92435c87f784",
+          "farmer_id": "f94a9ea3-ba2d-4e07-bbdc-64812bed49e7",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Are You Lonesome Tonight?",
+          "due_date": "2023-05-02T11:01:45.905Z",
+          "amount": 35773726.05
+        }
+      ]
+    },
+    {
+      "id": "09cc4fb7-4f49-404c-b6f9-13e74da338ce",
+      "farmer": {
+        "firstName": "Robyn",
+        "lastName": "Wolff"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "ddcc570b-b1f6-41ff-ad10-2663383ea787",
+          "farmer_id": "bf789413-ceb8-455c-aef4-051d3387a80d",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Hey Ya!",
+          "due_date": "2023-12-02T00:14:47.864Z",
+          "amount": 236240964.03
+        },
+        {
+          "id": "b589a92d-3029-447e-9f2d-035eb68b3a8e",
+          "farmer_id": "bf789413-ceb8-455c-aef4-051d3387a80d",
+          "purpose": ["chemicals", "seeds"],
+          "season": "How Much is That Doggy in the Window?",
+          "due_date": "2023-09-13T09:11:08.601Z",
+          "amount": 166671880.01
+        },
+        {
+          "id": "fc7ee054-9382-40ab-8b5c-4af3d4cf048f",
+          "farmer_id": "bf789413-ceb8-455c-aef4-051d3387a80d",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "(Ghost) Riders in the Sky",
+          "due_date": "2023-11-14T00:00:26.694Z",
+          "amount": 833208466.91
+        }
+      ]
+    },
+    {
+      "id": "60f2fa44-bc36-4ec1-bed2-b014d4559ef7",
+      "farmer": {
+        "firstName": "Krista",
+        "lastName": "Boyle"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "4384aa90-801f-428e-a0fc-ed3520931912",
+          "farmer_id": "f29ce034-413b-420e-83a8-130a1c7e3019",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Big Girls Don't Cry",
+          "due_date": "2024-01-02T06:22:20.096Z",
+          "amount": 616634973.31
+        },
+        {
+          "id": "4df7018d-4ba5-42cc-9017-90e0176a8796",
+          "farmer_id": "f29ce034-413b-420e-83a8-130a1c7e3019",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Gimme Some Lovin'",
+          "due_date": "2023-12-04T20:30:57.162Z",
+          "amount": 707178921.83
+        },
+        {
+          "id": "4ae925d0-54ba-4914-8b5c-7957926e7c89",
+          "farmer_id": "f29ce034-413b-420e-83a8-130a1c7e3019",
+          "purpose": ["chemicals"],
+          "season": "Take Me Home",
+          "due_date": "2023-10-09T02:32:54.716Z",
+          "amount": 122746005.33
+        }
+      ]
+    },
+    {
+      "id": "d3494c62-8291-47cf-b5c2-ac2983c32426",
+      "farmer": {
+        "firstName": "Jeannie",
+        "lastName": "Ledner"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "8c9d91ba-7a63-4686-8328-e4c84679af0b",
+          "farmer_id": "aeb37367-9467-4fd3-87dc-d72f28826dc6",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "(I've Had) the Time of My Life",
+          "due_date": "2023-06-06T09:48:56.898Z",
+          "amount": 903072077.83
+        },
+        {
+          "id": "d28fa263-aec6-4707-8165-e7054263890f",
+          "farmer_id": "aeb37367-9467-4fd3-87dc-d72f28826dc6",
+          "purpose": ["chemicals"],
+          "season": "Wicked Game",
+          "due_date": "2024-01-06T16:17:12.039Z",
+          "amount": 88683042.85
+        },
+        {
+          "id": "d7ea597d-a4d2-44af-95a1-166136755352",
+          "farmer_id": "aeb37367-9467-4fd3-87dc-d72f28826dc6",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Good Times",
+          "due_date": "2023-12-16T22:31:40.264Z",
+          "amount": 217571731.76
+        }
+      ]
+    },
+    {
+      "id": "b9938f6f-7745-456a-8d1e-cd213300bb8b",
+      "farmer": {
+        "firstName": "Martha",
+        "lastName": "Cartwright"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "c63d898b-8d6d-40dd-bfeb-efcc93951832",
+          "farmer_id": "c0e12f84-2154-40e0-94aa-d997561d84a1",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "She Loves You",
+          "due_date": "2023-07-01T07:00:59.211Z",
+          "amount": 25029092.32
+        },
+        {
+          "id": "7b4f0e19-0a8b-4f64-a09e-9a85e662e4ec",
+          "farmer_id": "c0e12f84-2154-40e0-94aa-d997561d84a1",
+          "purpose": ["seeds"],
+          "season": "How Will I Know",
+          "due_date": "2023-07-08T00:37:36.933Z",
+          "amount": 903445072.75
+        },
+        {
+          "id": "532bcf57-d3cd-40d5-bad1-62b4d16f46eb",
+          "farmer_id": "c0e12f84-2154-40e0-94aa-d997561d84a1",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "I Can't Stop Loving You",
+          "due_date": "2023-12-02T09:05:09.082Z",
+          "amount": 213165786.04
+        }
+      ]
+    },
+    {
+      "id": "e35268e7-5f9b-45f1-a1fb-6cf47a07be22",
+      "farmer": {
+        "firstName": "Nina",
+        "lastName": "Dickens"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "63431740-c72f-4c6d-9b11-959ff3450efb",
+          "farmer_id": "90c730c6-5948-482b-970a-94eb8d8b13d9",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Pistol Packin' Mama",
+          "due_date": "2023-05-06T16:13:18.515Z",
+          "amount": 560107522.42
+        },
+        {
+          "id": "22573818-4643-493c-8d86-4a5dfa67b84f",
+          "farmer_id": "90c730c6-5948-482b-970a-94eb8d8b13d9",
+          "purpose": ["fertilizer"],
+          "season": "Hair",
+          "due_date": "2023-05-13T16:13:50.694Z",
+          "amount": 923299886.6
+        },
+        {
+          "id": "1fb91575-6107-4db6-bdd5-790737a81890",
+          "farmer_id": "90c730c6-5948-482b-970a-94eb8d8b13d9",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Hey Paula",
+          "due_date": "2023-06-12T13:04:30.212Z",
+          "amount": 202684959.6
+        },
+        {
+          "id": "d9fbceef-5491-438f-8ca0-0d4f8addf1bc",
+          "farmer_id": "90c730c6-5948-482b-970a-94eb8d8b13d9",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Do Wah Diddy Diddy",
+          "due_date": "2023-09-03T03:48:39.636Z",
+          "amount": 389781226
+        }
+      ]
+    },
+    {
+      "id": "160006cc-9ac6-4882-937c-3824d092a063",
+      "farmer": {
+        "firstName": "Judy",
+        "lastName": "Kihn"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "11624b78-6a45-4ead-b909-a31452218515",
+          "farmer_id": "59298b04-7217-434b-bfe8-48a7a175b177",
+          "purpose": ["fertilizer"],
+          "season": "Love Me Tender",
+          "due_date": "2023-03-03T16:56:47.894Z",
+          "amount": 310773478.82
+        },
+        {
+          "id": "253a8923-83c6-43ca-ad7f-2037ed1a385f",
+          "farmer_id": "59298b04-7217-434b-bfe8-48a7a175b177",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Can't Buy Me Love",
+          "due_date": "2023-02-20T05:37:58.585Z",
+          "amount": 464176586.75
+        },
+        {
+          "id": "c97ec2d4-60d0-4c92-8145-7115fd508d5b",
+          "farmer_id": "59298b04-7217-434b-bfe8-48a7a175b177",
+          "purpose": ["chemicals"],
+          "season": "Everybody Wants to Rule the World",
+          "due_date": "2023-05-21T10:45:52.254Z",
+          "amount": 353975773.62
+        },
+        {
+          "id": "31494dc0-24d6-49dc-bce4-6ce776470013",
+          "farmer_id": "59298b04-7217-434b-bfe8-48a7a175b177",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Till The End of Time",
+          "due_date": "2023-04-11T19:59:11.399Z",
+          "amount": 8810175.73
+        }
+      ]
+    },
+    {
+      "id": "4ec30be7-a5d8-4df1-bf94-063ad238c74c",
+      "farmer": {
+        "firstName": "Tom",
+        "lastName": "Marquardt"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "e56ae72f-fe67-40db-8dd5-86781dc2c5ba",
+          "farmer_id": "d8bac0d8-80bf-4e3d-a92d-f3d139aad98a",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Tonight's the Night (Gonna Be Alright)",
+          "due_date": "2023-09-11T14:51:47.736Z",
+          "amount": 221967461.2
+        },
+        {
+          "id": "67801c0d-4d35-4476-80d8-0cbaf9a96e8d",
+          "farmer_id": "d8bac0d8-80bf-4e3d-a92d-f3d139aad98a",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Bad",
+          "due_date": "2023-09-13T18:19:11.626Z",
+          "amount": 306218790.04
+        },
+        {
+          "id": "a1ada7b3-8b1d-481c-b55c-d733d17e794a",
+          "farmer_id": "d8bac0d8-80bf-4e3d-a92d-f3d139aad98a",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Let's Get it On",
+          "due_date": "2023-06-28T10:50:40.249Z",
+          "amount": 764394737.78
+        }
+      ]
+    },
+    {
+      "id": "fa43b938-17d5-4787-95df-a7c232e9ea5f",
+      "farmer": {
+        "firstName": "Dennis",
+        "lastName": "Wintheiser"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "aac5a922-e17b-4b4b-81d6-532f940284b4",
+          "farmer_id": "eba8260f-7761-423d-b3cc-35e8ce6250ea",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Sledgehammer",
+          "due_date": "2023-04-23T20:27:09.174Z",
+          "amount": 539248742.4
+        },
+        {
+          "id": "aa43f47d-f2c0-4074-b62e-c42c5b01003f",
+          "farmer_id": "eba8260f-7761-423d-b3cc-35e8ce6250ea",
+          "purpose": ["chemicals"],
+          "season": "YMCA",
+          "due_date": "2023-08-27T05:23:21.098Z",
+          "amount": 160547099.98
+        },
+        {
+          "id": "eb1d02a8-e200-45f9-a92c-49996b47fcba",
+          "farmer_id": "eba8260f-7761-423d-b3cc-35e8ce6250ea",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Na Na Hey Hey (Kiss Him Goodbye)",
+          "due_date": "2023-01-22T22:24:23.242Z",
+          "amount": 836498882.11
+        }
+      ]
+    },
+    {
+      "id": "75b21f47-9a81-45d3-ab7a-896500039a5f",
+      "farmer": {
+        "firstName": "Stuart",
+        "lastName": "Marvin"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "40781925-68f9-4e52-b3d3-8c8d6a0c5dd0",
+          "farmer_id": "d81f172d-6c8a-4587-807d-a649d8ddb3b8",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Eve of Destruction",
+          "due_date": "2023-09-14T06:15:33.802Z",
+          "amount": 114762254.65
+        },
+        {
+          "id": "97013efa-9d5a-4dcc-9d3f-b5f6c5b5e0df",
+          "farmer_id": "d81f172d-6c8a-4587-807d-a649d8ddb3b8",
+          "purpose": ["seeds", "chemicals"],
+          "season": "You're Beautiful",
+          "due_date": "2023-06-11T03:06:30.762Z",
+          "amount": 774415587.9
+        },
+        {
+          "id": "7e2806f3-9db8-4093-b4b6-050488c1c4b5",
+          "farmer_id": "d81f172d-6c8a-4587-807d-a649d8ddb3b8",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Fast Car",
+          "due_date": "2023-12-05T16:15:02.289Z",
+          "amount": 482799686.43
+        }
+      ]
+    },
+    {
+      "id": "690ffa45-9c3c-430d-b04f-d710772f014a",
+      "farmer": {
+        "firstName": "Jon",
+        "lastName": "Kemmer"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "8f0b42c3-8481-4d66-b31a-d133ecb0f32c",
+          "farmer_id": "a5be7148-aa5a-40be-983b-3fafed75849c",
+          "purpose": ["fertilizer"],
+          "season": "What Goes Around Comes Around",
+          "due_date": "2023-05-27T23:28:27.238Z",
+          "amount": 854484782.14
+        },
+        {
+          "id": "a4e318a5-ade5-4c8c-9c72-8267b849e21a",
+          "farmer_id": "a5be7148-aa5a-40be-983b-3fafed75849c",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Frenesi",
+          "due_date": "2023-11-11T19:25:14.696Z",
+          "amount": 655062429.91
+        },
+        {
+          "id": "a7d5e1f7-c53e-40e7-9df0-6a3a34e8039c",
+          "farmer_id": "a5be7148-aa5a-40be-983b-3fafed75849c",
+          "purpose": ["chemicals"],
+          "season": "We Found Love",
+          "due_date": "2023-11-11T22:51:07.841Z",
+          "amount": 433365815.12
+        },
+        {
+          "id": "7ad200ef-6108-4d73-90ad-a5b82bce286a",
+          "farmer_id": "a5be7148-aa5a-40be-983b-3fafed75849c",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Sir Duke",
+          "due_date": "2023-03-21T21:06:38.548Z",
+          "amount": 132512663.28
+        }
+      ]
+    },
+    {
+      "id": "a49d3364-319c-44c6-b4b2-9a78034ab61a",
+      "farmer": {
+        "firstName": "Randall",
+        "lastName": "Thompson"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "bf20a132-5aac-4f19-97ad-76ae693c22d0",
+          "farmer_id": "e4d11f9c-8d66-4119-88d3-26efef2f93e9",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Man in the Mirror",
+          "due_date": "2023-10-28T07:54:45.247Z",
+          "amount": 712274420.03
+        },
+        {
+          "id": "868321eb-143c-44c1-a560-364ff7a63d80",
+          "farmer_id": "e4d11f9c-8d66-4119-88d3-26efef2f93e9",
+          "purpose": ["chemicals"],
+          "season": "Tangerine",
+          "due_date": "2023-06-12T09:23:45.565Z",
+          "amount": 180054292.31
+        }
+      ]
+    },
+    {
+      "id": "77886682-c711-44f7-b355-4e17eac7f8cb",
+      "farmer": {
+        "firstName": "Micheal",
+        "lastName": "Prosacco"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "70be64e2-3ec0-400d-91b2-4b11cb59e3b0",
+          "farmer_id": "35457ae8-19b1-442d-842f-75143c8de57c",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Harbour Lights",
+          "due_date": "2023-10-18T01:19:09.118Z",
+          "amount": 820820889.73
+        },
+        {
+          "id": "13b756b0-cdfb-4a27-a9ac-08eba5acfab9",
+          "farmer_id": "35457ae8-19b1-442d-842f-75143c8de57c",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Roses Are Red",
+          "due_date": "2023-08-04T10:21:20.379Z",
+          "amount": 289620787.51
+        },
+        {
+          "id": "4ac46ce8-e14f-4305-98c7-ce4e3631a85d",
+          "farmer_id": "35457ae8-19b1-442d-842f-75143c8de57c",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "How Deep is Your Love?",
+          "due_date": "2023-04-08T19:59:28.231Z",
+          "amount": 749490249.02
+        }
+      ]
+    },
+    {
+      "id": "ab58e522-1e7c-464a-83a3-7d38ee53c89e",
+      "farmer": {
+        "firstName": "Robyn",
+        "lastName": "Gleichner"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "d3ca08a9-db56-4177-b67d-1223a851cd6e",
+          "farmer_id": "2231733f-c306-43db-8b9b-6f2608e0cdaa",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "(Let Me Be Your) Teddy Bear",
+          "due_date": "2023-12-26T15:56:52.991Z",
+          "amount": 878595181.18
+        },
+        {
+          "id": "3ef2b408-ac3d-480e-b5d1-dc71e680ab0f",
+          "farmer_id": "2231733f-c306-43db-8b9b-6f2608e0cdaa",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Hound Dog",
+          "due_date": "2023-10-26T04:29:03.227Z",
+          "amount": 585541072.89
+        },
+        {
+          "id": "5281b0bc-0f4c-4b41-8596-ef90fbfedcd1",
+          "farmer_id": "2231733f-c306-43db-8b9b-6f2608e0cdaa",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Gonna Make You Sweat (Everybody Dance Now)",
+          "due_date": "2023-07-08T08:40:23.105Z",
+          "amount": 322953218.56
+        }
+      ]
+    },
+    {
+      "id": "9e60e4af-da8e-40bc-8080-098783a1e2f7",
+      "farmer": {
+        "firstName": "Calvin",
+        "lastName": "Wisoky"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "d4301eed-ac53-4c4d-a640-46468c024c35",
+          "farmer_id": "6892849d-ef7a-4096-8c4d-19b2f32463cc",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Dardanella",
+          "due_date": "2023-05-05T18:20:37.937Z",
+          "amount": 313879326.82
+        },
+        {
+          "id": "2173d415-c57f-4fd1-b802-ec9aad6f9d3d",
+          "farmer_id": "6892849d-ef7a-4096-8c4d-19b2f32463cc",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Hair",
+          "due_date": "2023-10-31T21:31:11.833Z",
+          "amount": 813156789.74
+        }
+      ]
+    },
+    {
+      "id": "8a8860c1-5b79-42c7-8fb1-738b6bf9c838",
+      "farmer": {
+        "firstName": "Mindy",
+        "lastName": "Beahan"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "6aa39a88-4ce3-4ece-9869-ad4eacff221c",
+          "farmer_id": "314272bf-706b-405e-9d1f-2821ef98e926",
+          "purpose": ["seeds"],
+          "season": "Queen of Hearts",
+          "due_date": "2023-05-30T21:55:34.361Z",
+          "amount": 294982635.25
+        }
+      ]
+    },
+    {
+      "id": "2cfca80f-8a93-4ab3-a170-232f55ca21c5",
+      "farmer": {
+        "firstName": "Casey",
+        "lastName": "Feil"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "2da52bde-8a1f-4b48-8ac2-17d6b2a72cad",
+          "farmer_id": "c86218a1-13d2-45e2-8ece-3d03e5aa4f3e",
+          "purpose": ["seeds"],
+          "season": "White Rabbit",
+          "due_date": "2023-09-23T21:06:56.815Z",
+          "amount": 940829527.65
+        },
+        {
+          "id": "74e85881-1c10-4dec-9044-48e8a343e3ee",
+          "farmer_id": "c86218a1-13d2-45e2-8ece-3d03e5aa4f3e",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "All Out of Love",
+          "due_date": "2023-12-12T20:06:18.620Z",
+          "amount": 367763435.94
+        }
+      ]
+    },
+    {
+      "id": "52c3c127-9925-421e-801f-a5c95a3e8b70",
+      "farmer": {
+        "firstName": "Vivian",
+        "lastName": "Oberbrunner"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "72e8fa7f-1875-4684-b7ce-a502c9e5904c",
+          "farmer_id": "3f191341-e7cc-4b83-b57f-5c2566fa8c24",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "I Want You Back",
+          "due_date": "2023-10-20T02:06:43.121Z",
+          "amount": 637980397.8
+        },
+        {
+          "id": "1c2efd3e-8054-4f44-b8bc-625fee995600",
+          "farmer_id": "3f191341-e7cc-4b83-b57f-5c2566fa8c24",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Rosanna",
+          "due_date": "2023-04-12T08:31:06.769Z",
+          "amount": 239513471.01
+        }
+      ]
+    },
+    {
+      "id": "a2a3e712-03c0-4157-bfc0-f47711e03b0e",
+      "farmer": {
+        "firstName": "Priscilla",
+        "lastName": "Fay"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "e0738622-3a53-4201-999c-2fa5e4c1014a",
+          "farmer_id": "29ac2abd-c8b7-4b3a-8966-0745e8bd6ddc",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "All You Need is Love",
+          "due_date": "2023-04-21T21:21:51.719Z",
+          "amount": 430562336.59
+        }
+      ]
+    },
+    {
+      "id": "737efa8c-a9c8-4040-bf0c-0a0c1fb30adf",
+      "farmer": {
+        "firstName": "Kayla",
+        "lastName": "McGlynn"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "c32ab3f5-7bb2-4d30-97e4-8fe1c06ce82b",
+          "farmer_id": "f07c2c67-74e0-498d-951a-b44727feebf6",
+          "purpose": ["seeds"],
+          "season": "How to Save a Life",
+          "due_date": "2023-05-27T12:06:08.427Z",
+          "amount": 208463460.6
+        }
+      ]
+    },
+    {
+      "id": "786e9b6f-cec1-4b9d-a50a-e44b263d453d",
+      "farmer": {
+        "firstName": "Geoffrey",
+        "lastName": "Wuckert"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "2c058454-2f3e-40d5-aa39-14f4a3b155a7",
+          "farmer_id": "2450f3d5-1c53-4db2-bb8c-9043c3e88c01",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Living For the City",
+          "due_date": "2023-03-18T04:18:34.774Z",
+          "amount": 555699784.86
+        },
+        {
+          "id": "2c7d360e-f70c-4c76-9d84-387457f9161b",
+          "farmer_id": "2450f3d5-1c53-4db2-bb8c-9043c3e88c01",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Love In This Club",
+          "due_date": "2023-01-19T19:50:37.194Z",
+          "amount": 791665195.86
+        }
+      ]
+    },
+    {
+      "id": "604a398c-48ff-4c16-88c6-3e8e7b07809f",
+      "farmer": {
+        "firstName": "Allan",
+        "lastName": "Mraz"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "21ec1267-b987-4c0c-b1cf-e56a2234d0aa",
+          "farmer_id": "076bdb3e-5867-4fcc-80bb-90d5e4fc118e",
+          "purpose": ["seeds"],
+          "season": "King of the Road",
+          "due_date": "2023-05-07T00:29:15.730Z",
+          "amount": 540647972.58
+        },
+        {
+          "id": "4c347e67-a4b1-4897-9a08-2ad4609ccb2c",
+          "farmer_id": "076bdb3e-5867-4fcc-80bb-90d5e4fc118e",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Blueberry Hill",
+          "due_date": "2023-08-11T01:31:21.583Z",
+          "amount": 105273023.05
+        },
+        {
+          "id": "e5feb6bc-f925-4a19-ac03-ebc0b7499676",
+          "farmer_id": "076bdb3e-5867-4fcc-80bb-90d5e4fc118e",
+          "purpose": ["chemicals"],
+          "season": "Under the Boardwalk",
+          "due_date": "2023-06-21T04:32:29.147Z",
+          "amount": 748903559.15
+        }
+      ]
+    },
+    {
+      "id": "bd97a6a6-0df6-439d-9839-184c613ce4d2",
+      "farmer": {
+        "firstName": "Leslie",
+        "lastName": "Zieme"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "115d68cc-d0a3-425b-bab4-f74291292c2f",
+          "farmer_id": "182d04f9-b1d9-4e8e-bea6-1552986b0640",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Blaze of Glory",
+          "due_date": "2023-01-16T03:54:13.239Z",
+          "amount": 926254906.55
+        },
+        {
+          "id": "19de614c-d390-44ef-a498-da9baf4b892a",
+          "farmer_id": "182d04f9-b1d9-4e8e-bea6-1552986b0640",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Some of These Days",
+          "due_date": "2023-10-14T14:29:22.971Z",
+          "amount": 745163852.83
+        }
+      ]
+    },
+    {
+      "id": "0b645124-9bd4-4b90-a6b7-306edf8bb2bc",
+      "farmer": {
+        "firstName": "Angel",
+        "lastName": "Howe"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "9a199cab-6b0e-4c24-863c-d82ffab3116d",
+          "farmer_id": "ac453318-3a82-4e02-a8fc-8b1221284bb9",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Night & Day",
+          "due_date": "2023-05-16T06:38:00.957Z",
+          "amount": 303525877.96
+        }
+      ]
+    },
+    {
+      "id": "3cd0aad9-b98f-4092-9c20-a5e518301c45",
+      "farmer": {
+        "firstName": "Mercedes",
+        "lastName": "Pfannerstill"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "e523fa04-1fef-4736-83ec-38543657fd61",
+          "farmer_id": "f36683e2-eccf-4863-b0f6-81ae4a593f61",
+          "purpose": ["fertilizer"],
+          "season": "Ebony & Ivory",
+          "due_date": "2023-05-11T03:22:47.820Z",
+          "amount": 669416860.61
+        },
+        {
+          "id": "313cdff9-54a4-4cb2-a84b-1f79801fdbf6",
+          "farmer_id": "f36683e2-eccf-4863-b0f6-81ae4a593f61",
+          "purpose": ["chemicals"],
+          "season": "Mule Train",
+          "due_date": "2023-08-25T13:44:33.595Z",
+          "amount": 635561597.29
+        }
+      ]
+    },
+    {
+      "id": "6873997c-6ddb-4699-9249-695d77ecff95",
+      "farmer": {
+        "firstName": "Josefina",
+        "lastName": "Balistreri"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "75585cdc-e17a-44a8-8d86-d2e17cf2e320",
+          "farmer_id": "fc6fa9f8-d679-46b5-8ce8-a3de767a4515",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "My Life",
+          "due_date": "2023-10-27T10:28:43.619Z",
+          "amount": 628171356.02
+        },
+        {
+          "id": "02e99c79-9aa1-4d0f-8256-b27535e13f22",
+          "farmer_id": "fc6fa9f8-d679-46b5-8ce8-a3de767a4515",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Spill the Wine",
+          "due_date": "2023-07-06T10:35:49.265Z",
+          "amount": 125916649.92
+        }
+      ]
+    },
+    {
+      "id": "22c1f0e3-53fb-418e-b437-bbcdbdc2e470",
+      "farmer": {
+        "firstName": "Charles",
+        "lastName": "Hilll"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "573426e1-0e08-4ac0-8b4f-c2746152eab1",
+          "farmer_id": "ca61663a-f0ee-463a-a141-4fb269a66545",
+          "purpose": ["seeds"],
+          "season": "Do You Love Me?",
+          "due_date": "2023-06-14T06:11:33.860Z",
+          "amount": 216464453.61
+        }
+      ]
+    },
+    {
+      "id": "cc157b93-7051-4a2f-bb62-952d8d8c0847",
+      "farmer": {
+        "firstName": "Shelley",
+        "lastName": "Abbott"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "1527f3c9-5cfc-40e3-aaea-b6b760b37495",
+          "farmer_id": "cc25c43b-d9a7-458b-9e45-94e63266d695",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Peg o' My Heart",
+          "due_date": "2023-06-07T01:09:39.704Z",
+          "amount": 883952234.75
+        }
+      ]
+    },
+    {
+      "id": "11a1a23f-c937-404a-9077-47b1fe7a2902",
+      "farmer": {
+        "firstName": "Lula",
+        "lastName": "McCullough"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "2065456b-e2a9-4e9c-9c01-72af67000256",
+          "farmer_id": "9dd32708-1762-4e1f-af16-e33c17281e0a",
+          "purpose": ["chemicals"],
+          "season": "Behind Closed Doors",
+          "due_date": "2023-04-13T00:39:16.141Z",
+          "amount": 728753444.26
+        },
+        {
+          "id": "882cad01-eff3-44d5-9137-aa75617fd924",
+          "farmer_id": "9dd32708-1762-4e1f-af16-e33c17281e0a",
+          "purpose": ["fertilizer"],
+          "season": "We Are the World",
+          "due_date": "2023-05-15T07:25:34.279Z",
+          "amount": 801546099.17
+        }
+      ]
+    },
+    {
+      "id": "24909e5f-060a-4d1f-85fc-be964adfc8f5",
+      "farmer": {
+        "firstName": "Lee",
+        "lastName": "Swaniawski"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "0672a105-b02b-49af-a2ae-743b455df75b",
+          "farmer_id": "371d5d55-6be1-4b9c-a8f9-e6d4608e7cf8",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "My Sweet Lord",
+          "due_date": "2023-07-05T14:49:43.707Z",
+          "amount": 529218531.88
+        },
+        {
+          "id": "f3fc38b0-1dcc-4340-8a5f-d62a9d48444d",
+          "farmer_id": "371d5d55-6be1-4b9c-a8f9-e6d4608e7cf8",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Again",
+          "due_date": "2023-09-15T23:23:23.818Z",
+          "amount": 124788735.03
+        },
+        {
+          "id": "ac22b465-da88-4d5d-9ac1-565ec96a3c17",
+          "farmer_id": "371d5d55-6be1-4b9c-a8f9-e6d4608e7cf8",
+          "purpose": ["fertilizer"],
+          "season": "Honky Tonk",
+          "due_date": "2023-05-25T15:09:40.891Z",
+          "amount": 855875605.83
+        },
+        {
+          "id": "c8c68aa2-a07d-4813-a533-32aefafa83e1",
+          "farmer_id": "371d5d55-6be1-4b9c-a8f9-e6d4608e7cf8",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Over There",
+          "due_date": "2023-06-26T10:52:24.831Z",
+          "amount": 545379004.13
+        }
+      ]
+    },
+    {
+      "id": "bb3cb3cb-fe84-4e98-a6df-2a00515d9e25",
+      "farmer": {
+        "firstName": "Omar",
+        "lastName": "King"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "e9481bce-229d-4a68-b48a-83bdb89c4d99",
+          "farmer_id": "08081e72-5b79-4b07-813e-f9ccf1acf955",
+          "purpose": ["fertilizer"],
+          "season": "Personality",
+          "due_date": "2023-05-24T19:30:50.342Z",
+          "amount": 317579508.21
+        }
+      ]
+    },
+    {
+      "id": "ebc7e0c4-2921-4d1f-919c-8fd960f85b63",
+      "farmer": {
+        "firstName": "Tasha",
+        "lastName": "Grant"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "a94a2691-89c0-41e2-a3e9-6957c9042380",
+          "farmer_id": "f93801c9-0d78-41b3-99cf-eaea8fbb7e07",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "In the End",
+          "due_date": "2024-01-04T15:05:02.186Z",
+          "amount": 231267079.51
+        },
+        {
+          "id": "c1c79b6b-32de-4120-b56f-70afe4c1848c",
+          "farmer_id": "f93801c9-0d78-41b3-99cf-eaea8fbb7e07",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Let's Get it On",
+          "due_date": "2023-09-18T01:38:19.232Z",
+          "amount": 116290838.66
+        }
+      ]
+    },
+    {
+      "id": "5231f156-7abb-40c3-a17e-fa0bf1297e4c",
+      "farmer": {
+        "firstName": "Hilda",
+        "lastName": "Bashirian"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "845760d1-3d35-48ab-8032-06d15768fb0a",
+          "farmer_id": "ec0c4b62-81da-4b36-ac10-e4df86299b9c",
+          "purpose": ["seeds"],
+          "season": "My Sweet Lord",
+          "due_date": "2023-01-18T04:01:57.632Z",
+          "amount": 768260936.47
+        }
+      ]
+    },
+    {
+      "id": "45a9728d-66ad-4f50-993c-46f02ad47bed",
+      "farmer": {
+        "firstName": "Roger",
+        "lastName": "Anderson"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "71fae318-a918-436a-9f7b-d38129d762e0",
+          "farmer_id": "57856c4c-1f3b-4b8a-9e81-1e07c7346f4b",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "What Goes Around Comes Around",
+          "due_date": "2023-03-11T19:06:51.881Z",
+          "amount": 156860388.87
+        },
+        {
+          "id": "a0b11f7c-13ca-4751-9a96-62910d281a6c",
+          "farmer_id": "57856c4c-1f3b-4b8a-9e81-1e07c7346f4b",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "How You Remind Me",
+          "due_date": "2023-04-14T10:05:00.574Z",
+          "amount": 315153379.89
+        }
+      ]
+    },
+    {
+      "id": "dccf9b42-d10a-411d-a441-836272bb2830",
+      "farmer": {
+        "firstName": "Gordon",
+        "lastName": "MacGyver"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "435d09d9-d70b-48c7-889b-eeb2aa58345b",
+          "farmer_id": "83f28055-4014-4e95-bf37-5fc25e7c9d6a",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "You make Me Wanna",
+          "due_date": "2023-10-25T05:52:05.449Z",
+          "amount": 131224942.49
+        },
+        {
+          "id": "0816a5db-a9bc-49bb-a73a-94ed14bd44bf",
+          "farmer_id": "83f28055-4014-4e95-bf37-5fc25e7c9d6a",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Without Me",
+          "due_date": "2023-10-21T12:18:42.568Z",
+          "amount": 549419976.56
+        }
+      ]
+    },
+    {
+      "id": "582a6eb1-da49-4491-9e08-0c923f07718f",
+      "farmer": {
+        "firstName": "Darin",
+        "lastName": "Nicolas"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "11fe5f5d-1a3f-439c-b2ca-2ff865f505d3",
+          "farmer_id": "bf8a37b9-5962-44cc-ac37-aff84be63251",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Cheek to Cheek",
+          "due_date": "2024-01-01T02:46:52.914Z",
+          "amount": 617302681.38
+        },
+        {
+          "id": "aa2f01c6-b2a1-4112-bb97-43e1291f47a1",
+          "farmer_id": "bf8a37b9-5962-44cc-ac37-aff84be63251",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Whoomp! (There it Is)",
+          "due_date": "2023-12-11T16:03:49.124Z",
+          "amount": 48793324.08
+        }
+      ]
+    },
+    {
+      "id": "b8a0bf34-163d-491c-a9ec-69d596fc385b",
+      "farmer": {
+        "firstName": "Alyssa",
+        "lastName": "Muller"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "ca7081f7-6d37-4a5a-b200-e14378d3de16",
+          "farmer_id": "85ef773d-3012-4cdf-9fb7-945531660f3c",
+          "purpose": ["chemicals"],
+          "season": "I Want to Know What Love Is",
+          "due_date": "2023-07-07T23:21:06.515Z",
+          "amount": 595462020.35
+        }
+      ]
+    },
+    {
+      "id": "5bcc3a60-9305-4847-99f7-8d3d3b242b5b",
+      "farmer": {
+        "firstName": "Christopher",
+        "lastName": "Prohaska"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "fb5c53b7-d2a3-4a0c-9443-d1f90311f57c",
+          "farmer_id": "0f11f113-6a74-45d6-a31b-8795111a1fc0",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Love Is Blue (L'Amour Est Bleu)",
+          "due_date": "2023-08-20T22:50:29.860Z",
+          "amount": 729201763.56
+        },
+        {
+          "id": "74fd07bd-6d9f-4ddd-8269-4ca7ced5ce06",
+          "farmer_id": "0f11f113-6a74-45d6-a31b-8795111a1fc0",
+          "purpose": ["fertilizer"],
+          "season": "Smooth",
+          "due_date": "2023-06-07T01:18:06.723Z",
+          "amount": 390341309.42
+        }
+      ]
+    },
+    {
+      "id": "5cbbbfb0-be3c-4cb6-aee7-777ee12e5dec",
+      "farmer": {
+        "firstName": "Gerardo",
+        "lastName": "Torp"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "3623e0bb-e967-47ba-bace-a8c113a630e3",
+          "farmer_id": "18b9a688-c9ff-42db-9cdd-78e0c08482b5",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Right Back Where We Started From",
+          "due_date": "2023-09-04T15:50:20.628Z",
+          "amount": 598623655.87
+        }
+      ]
+    },
+    {
+      "id": "fed92a4b-fec9-45a6-a6a2-0c73b98ef16a",
+      "farmer": {
+        "firstName": "Ryan",
+        "lastName": "Toy"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "34a9c9ba-603f-4feb-bbed-2be47e20bf6e",
+          "farmer_id": "be6dba16-8e93-440c-8ba6-66e4e47184c8",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Call Me Maybe",
+          "due_date": "2023-11-21T12:18:42.584Z",
+          "amount": 950463408.73
+        },
+        {
+          "id": "346ce21b-617b-475a-b4f0-31521100f407",
+          "farmer_id": "be6dba16-8e93-440c-8ba6-66e4e47184c8",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "He's So Fine",
+          "due_date": "2023-11-12T21:14:16.510Z",
+          "amount": 71101878.99
+        },
+        {
+          "id": "f770213d-e0cd-4629-86a0-148520766788",
+          "farmer_id": "be6dba16-8e93-440c-8ba6-66e4e47184c8",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "I Shot the Sheriff",
+          "due_date": "2023-02-12T13:30:50.076Z",
+          "amount": 988838967.67
+        }
+      ]
+    },
+    {
+      "id": "37b4eae7-3c21-48ef-9d0b-eae7b54c8107",
+      "farmer": {
+        "firstName": "Charlene",
+        "lastName": "Harber"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "b7418a58-6606-48d2-b1e7-221b057f3db1",
+          "farmer_id": "fef8805b-65ed-454c-a689-a108a7d97c79",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Proud Mary",
+          "due_date": "2023-06-10T06:01:24.490Z",
+          "amount": 711522071.42
+        },
+        {
+          "id": "0ccb1f88-41bd-4ccf-b954-b91530ba0699",
+          "farmer_id": "fef8805b-65ed-454c-a689-a108a7d97c79",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Tammy",
+          "due_date": "2023-09-10T15:18:24.206Z",
+          "amount": 980444224.72
+        },
+        {
+          "id": "a24b37ab-c0f5-4710-b35d-9b0a8faf403b",
+          "farmer_id": "fef8805b-65ed-454c-a689-a108a7d97c79",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Black Or White",
+          "due_date": "2023-04-05T03:39:33.098Z",
+          "amount": 134117648.27
+        },
+        {
+          "id": "e5bf5df8-4faf-40b2-ab4c-1fc27aaefc89",
+          "farmer_id": "fef8805b-65ed-454c-a689-a108a7d97c79",
+          "purpose": ["chemicals"],
+          "season": "Are You Lonesome Tonight?",
+          "due_date": "2023-01-23T17:13:30.730Z",
+          "amount": 575609728.49
+        }
+      ]
+    },
+    {
+      "id": "cec9e6ba-9c28-41b3-b540-a6b653074840",
+      "farmer": {
+        "firstName": "Gregg",
+        "lastName": "Grant"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "397875ec-70b1-46fe-86c2-8f7bcd25bf22",
+          "farmer_id": "64442ccc-7533-43e2-b0ef-d2eef43aac60",
+          "purpose": ["seeds"],
+          "season": "What Goes Around Comes Around",
+          "due_date": "2023-10-03T08:05:30.545Z",
+          "amount": 308048739.34
+        }
+      ]
+    },
+    {
+      "id": "67aeb5ea-733f-454a-b422-393fb4975715",
+      "farmer": {
+        "firstName": "Floyd",
+        "lastName": "Schneider"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "bfb7263b-4060-468a-98d3-fa38e45ff07e",
+          "farmer_id": "67bbff97-cbb1-4719-b76a-467eda02c963",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Purple Rain",
+          "due_date": "2023-01-27T06:51:38.739Z",
+          "amount": 476811906.31
+        },
+        {
+          "id": "ede5e84b-d1d3-4080-9cd2-43fbee647eae",
+          "farmer_id": "67bbff97-cbb1-4719-b76a-467eda02c963",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "The Christmas Song (Chestnuts Roasting On An Open Fire)",
+          "due_date": "2023-05-07T15:46:42.358Z",
+          "amount": 231002540.91
+        }
+      ]
+    },
+    {
+      "id": "7d20ad78-9152-4f99-957c-911f6b4ab780",
+      "farmer": {
+        "firstName": "Dean",
+        "lastName": "Reilly"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "f187249d-6853-4217-957a-8e5bb45e1550",
+          "farmer_id": "dce170cb-5acf-44dc-ab22-1758cd973621",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "What's Going On?",
+          "due_date": "2023-08-14T18:01:01.185Z",
+          "amount": 386143936.9
+        },
+        {
+          "id": "b1e60cc6-6f5a-4603-9f9d-9d57dad47e8b",
+          "farmer_id": "dce170cb-5acf-44dc-ab22-1758cd973621",
+          "purpose": ["seeds"],
+          "season": "Born to Run",
+          "due_date": "2023-05-20T05:53:10.390Z",
+          "amount": 632499573.86
+        },
+        {
+          "id": "0b7e597f-cc0b-4762-9eda-75b4b746b4b6",
+          "farmer_id": "dce170cb-5acf-44dc-ab22-1758cd973621",
+          "purpose": ["chemicals"],
+          "season": "Rudolph",
+          "due_date": "2023-10-22T00:32:14.977Z",
+          "amount": 133714346.32
+        }
+      ]
+    },
+    {
+      "id": "0f04da3c-0835-4865-8400-945e6880d352",
+      "farmer": {
+        "firstName": "Julia",
+        "lastName": "Berge"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "2c844d80-667d-4f42-aa44-864af35364bb",
+          "farmer_id": "0c1e311a-695b-472a-98dd-e64c27c5003c",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Tangerine",
+          "due_date": "2023-11-01T00:27:55.619Z",
+          "amount": 366393202.19
+        },
+        {
+          "id": "41f22f58-b5fe-4645-8e37-ac21170e399b",
+          "farmer_id": "0c1e311a-695b-472a-98dd-e64c27c5003c",
+          "purpose": ["fertilizer"],
+          "season": "Big Bad John",
+          "due_date": "2023-10-29T12:18:56.493Z",
+          "amount": 580691504.72
+        },
+        {
+          "id": "1dfd4cd9-7b68-4442-9a77-bfc33edc95e0",
+          "farmer_id": "0c1e311a-695b-472a-98dd-e64c27c5003c",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Take The 'A' Train",
+          "due_date": "2023-12-08T01:34:42.019Z",
+          "amount": 216302281.93
+        },
+        {
+          "id": "295a6d67-13cd-4f4d-9e93-714added8918",
+          "farmer_id": "0c1e311a-695b-472a-98dd-e64c27c5003c",
+          "purpose": ["chemicals"],
+          "season": "Take The 'A' Train",
+          "due_date": "2023-11-13T01:15:38.516Z",
+          "amount": 576894521.93
+        }
+      ]
+    },
+    {
+      "id": "1143704b-cc2d-4928-a329-0b6b93f52563",
+      "farmer": {
+        "firstName": "Grady",
+        "lastName": "Lesch"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "d096a924-a784-42ed-aa9e-7c00a9f44523",
+          "farmer_id": "a1e2c188-b9c1-44cd-be52-d2ab2e7348ad",
+          "purpose": ["chemicals", "fertilizer", "seeds"],
+          "season": "Say Say Say",
+          "due_date": "2023-08-25T04:48:12.667Z",
+          "amount": 43985375.14
+        },
+        {
+          "id": "5cf72c60-d71b-45a3-a23e-a8dc41124eed",
+          "farmer_id": "a1e2c188-b9c1-44cd-be52-d2ab2e7348ad",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Stairway to Heaven",
+          "due_date": "2023-05-23T04:31:44.417Z",
+          "amount": 408053385.42
+        },
+        {
+          "id": "33f12b18-8a95-474e-a1d2-a285e823f094",
+          "farmer_id": "a1e2c188-b9c1-44cd-be52-d2ab2e7348ad",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "Karma Chameleon",
+          "due_date": "2023-08-12T19:35:33.767Z",
+          "amount": 428903640.43
+        }
+      ]
+    },
+    {
+      "id": "297b1c13-d283-41ff-abe5-c911a461a740",
+      "farmer": {
+        "firstName": "Arnold",
+        "lastName": "O'Reilly"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "092ca04c-4157-4878-8b63-d8cb2d352c26",
+          "farmer_id": "464bb3ed-07bc-4653-9b05-72cc1cee4b16",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Stuck On You",
+          "due_date": "2023-10-28T10:46:08.619Z",
+          "amount": 429769932.43
+        },
+        {
+          "id": "309af547-fd90-48f2-a497-abbbb26d7da1",
+          "farmer_id": "464bb3ed-07bc-4653-9b05-72cc1cee4b16",
+          "purpose": ["fertilizer"],
+          "season": "Wind Beneath My Wings",
+          "due_date": "2023-11-29T21:18:50.116Z",
+          "amount": 138468028.58
+        },
+        {
+          "id": "1398cd7f-f096-4b71-b0c8-4476aa881861",
+          "farmer_id": "464bb3ed-07bc-4653-9b05-72cc1cee4b16",
+          "purpose": ["chemicals", "seeds"],
+          "season": "Green Onions",
+          "due_date": "2023-07-05T04:16:40.207Z",
+          "amount": 894275469.49
+        }
+      ]
+    },
+    {
+      "id": "5f11f049-8219-4067-a283-471e030bed83",
+      "farmer": {
+        "firstName": "Gayle",
+        "lastName": "Koss"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "fd93d2ca-960d-4f35-a5ef-184ee5110c1a",
+          "farmer_id": "a68fecf0-59b3-4dd2-81c5-db5c2239ecd5",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Need You Now",
+          "due_date": "2023-03-15T22:50:51.092Z",
+          "amount": 955368957.91
+        },
+        {
+          "id": "fbf32b30-a715-4aff-a511-fd877979777e",
+          "farmer_id": "a68fecf0-59b3-4dd2-81c5-db5c2239ecd5",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Need You Now",
+          "due_date": "2023-06-16T23:40:26.868Z",
+          "amount": 358695327.2
+        },
+        {
+          "id": "992a9404-fc06-4557-8258-7d54eb96fb09",
+          "farmer_id": "a68fecf0-59b3-4dd2-81c5-db5c2239ecd5",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Hair",
+          "due_date": "2023-07-26T17:38:36.180Z",
+          "amount": 699201950.41
+        }
+      ]
+    },
+    {
+      "id": "0fccca8b-fd7a-4b5c-8112-ddfe390d7bac",
+      "farmer": {
+        "firstName": "Johnnie",
+        "lastName": "Crona"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "4626ae4a-5a2c-4cec-9543-6695ada40ca3",
+          "farmer_id": "f139d3d2-f24c-4f15-abc9-a88b2d80d26d",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Alone",
+          "due_date": "2023-02-16T17:52:41.715Z",
+          "amount": 331385286.44
+        },
+        {
+          "id": "cd081296-c308-494e-92f6-2afa7dbfe936",
+          "farmer_id": "f139d3d2-f24c-4f15-abc9-a88b2d80d26d",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Groovin'",
+          "due_date": "2023-09-17T06:53:44.730Z",
+          "amount": 40679350.43
+        },
+        {
+          "id": "d0f30537-6c1e-43a4-b1e9-7cdba840d8c9",
+          "farmer_id": "f139d3d2-f24c-4f15-abc9-a88b2d80d26d",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Suspicious Minds",
+          "due_date": "2024-01-10T08:43:00.560Z",
+          "amount": 876583650.24
+        }
+      ]
+    },
+    {
+      "id": "b9b92466-d0de-4031-a7be-6b8c189e6e5d",
+      "farmer": {
+        "firstName": "Dolores",
+        "lastName": "West"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "937ac35e-0770-4974-968e-38c2231acf6e",
+          "farmer_id": "2d3157a4-6cb9-4c1d-b1ec-7a061edbb2ec",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Good Lovin'",
+          "due_date": "2023-07-25T18:25:45.733Z",
+          "amount": 189131717.44
+        },
+        {
+          "id": "ef122b81-6a1c-4440-bb1e-6a1b40659996",
+          "farmer_id": "2d3157a4-6cb9-4c1d-b1ec-7a061edbb2ec",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Disturbia",
+          "due_date": "2023-08-01T21:08:26.464Z",
+          "amount": 81283741.54
+        },
+        {
+          "id": "094cbf29-0f2c-41a7-abd9-b2f422774281",
+          "farmer_id": "2d3157a4-6cb9-4c1d-b1ec-7a061edbb2ec",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Honey",
+          "due_date": "2023-07-01T14:01:19.293Z",
+          "amount": 758355297.71
+        }
+      ]
+    },
+    {
+      "id": "5b46af42-e395-4397-81eb-c461c096495a",
+      "farmer": {
+        "firstName": "Carlton",
+        "lastName": "Crooks"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "3db782d7-695e-4b94-a31e-27bf25eff330",
+          "farmer_id": "80a0ebf2-512b-4a4c-a03b-f282da7aeb74",
+          "purpose": ["fertilizer", "seeds", "chemicals"],
+          "season": "Apologize",
+          "due_date": "2023-08-11T20:15:19.302Z",
+          "amount": 384343334.44
+        }
+      ]
+    },
+    {
+      "id": "6e5a37cf-f8b6-464e-a888-7f143654f62c",
+      "farmer": {
+        "firstName": "Madeline",
+        "lastName": "Marquardt"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "d0d49ffa-d32f-4a69-bdff-cf5d97eeb6ed",
+          "farmer_id": "e5eae0b6-74a0-4ca1-9503-650aaa31bd0a",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Tears of a Clown",
+          "due_date": "2023-04-09T17:16:10.192Z",
+          "amount": 807025280.04
+        },
+        {
+          "id": "5a730502-ead6-48f7-b046-4a57b366b377",
+          "farmer_id": "e5eae0b6-74a0-4ca1-9503-650aaa31bd0a",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Like a Prayer",
+          "due_date": "2023-03-23T22:49:25.394Z",
+          "amount": 847349699.99
+        },
+        {
+          "id": "ceb416a2-f63e-49ce-a30b-9b13bf47e91f",
+          "farmer_id": "e5eae0b6-74a0-4ca1-9503-650aaa31bd0a",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Hey Paula",
+          "due_date": "2023-09-06T23:56:27.317Z",
+          "amount": 794138908.7
+        }
+      ]
+    },
+    {
+      "id": "21ee6338-4e2a-4127-91b9-6795764359b8",
+      "farmer": {
+        "firstName": "Nicholas",
+        "lastName": "Hahn"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "ea748f7b-6c5f-4c12-9cd7-ca79ba2a9577",
+          "farmer_id": "29aed176-11b2-4378-b73c-94f905378e07",
+          "purpose": ["chemicals", "seeds"],
+          "season": "(Your Love Keeps Lifting Me) Higher & Higher",
+          "due_date": "2023-06-12T03:19:42.049Z",
+          "amount": 846763380.08
+        },
+        {
+          "id": "9fadd631-dfc1-44be-86ed-e244fb65ef26",
+          "farmer_id": "29aed176-11b2-4378-b73c-94f905378e07",
+          "purpose": ["chemicals"],
+          "season": "Twist & Shout",
+          "due_date": "2023-11-08T23:47:32.392Z",
+          "amount": 549312206.62
+        },
+        {
+          "id": "899eff45-68ba-44f9-82b4-82b0797b0b84",
+          "farmer_id": "29aed176-11b2-4378-b73c-94f905378e07",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "There goes my baby",
+          "due_date": "2023-05-31T09:49:07.434Z",
+          "amount": 716161722.27
+        },
+        {
+          "id": "5cf4abef-8470-44f5-9dcc-562f5b5b64f6",
+          "farmer_id": "29aed176-11b2-4378-b73c-94f905378e07",
+          "purpose": ["chemicals"],
+          "season": "Mister Sandman",
+          "due_date": "2023-05-13T05:07:58.696Z",
+          "amount": 52470494.12
+        }
+      ]
+    },
+    {
+      "id": "c2869abe-fc48-48d2-9446-2f16b3d45d16",
+      "farmer": {
+        "firstName": "Anthony",
+        "lastName": "Kassulke"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "85d7a098-2f6f-478b-aaba-0e1a6ce2742f",
+          "farmer_id": "f5f8c83d-b0a1-40d9-a0b0-551ef82eb445",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Crimson & Clover",
+          "due_date": "2023-11-30T23:57:15.403Z",
+          "amount": 875291251
+        },
+        {
+          "id": "4114bb92-1f73-4a71-b59e-ec02ff0114b6",
+          "farmer_id": "f5f8c83d-b0a1-40d9-a0b0-551ef82eb445",
+          "purpose": ["chemicals"],
+          "season": "Everybody Wants to Rule the World",
+          "due_date": "2023-08-20T11:16:15.166Z",
+          "amount": 552476002.56
+        },
+        {
+          "id": "5d5c50f1-c5f8-4a9f-967c-80b715d66aea",
+          "farmer_id": "f5f8c83d-b0a1-40d9-a0b0-551ef82eb445",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "I Fall to Pieces",
+          "due_date": "2023-10-01T17:15:25.692Z",
+          "amount": 414746856.99
+        }
+      ]
+    },
+    {
+      "id": "1c7fe772-34f2-4f5b-b7ef-43efc7c0174f",
+      "farmer": {
+        "firstName": "Anne",
+        "lastName": "Gleason"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "a3fd960d-db4d-4b40-8f52-2129626851ac",
+          "farmer_id": "18eb142f-e6de-47bb-a727-c4b8bc09051b",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Wake Up Little Susie",
+          "due_date": "2023-09-27T07:46:54.754Z",
+          "amount": 993679801.75
+        }
+      ]
+    },
+    {
+      "id": "4cadb764-5be0-4953-938a-8b51eb9e131a",
+      "farmer": {
+        "firstName": "Suzanne",
+        "lastName": "Tromp"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "93bbd8bf-2d26-4edc-b64c-9e346b5a935d",
+          "farmer_id": "1f72a812-288b-4ea3-9bbc-034c1e6f846a",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Crying",
+          "due_date": "2023-10-17T18:40:54.667Z",
+          "amount": 312584057.5
+        },
+        {
+          "id": "70b916ab-3185-4539-9034-37ef3df0e3ff",
+          "farmer_id": "1f72a812-288b-4ea3-9bbc-034c1e6f846a",
+          "purpose": ["seeds", "chemicals", "fertilizer"],
+          "season": "A Whole New World (Aladdin's Theme)",
+          "due_date": "2023-01-22T05:06:27.015Z",
+          "amount": 23307264.07
+        },
+        {
+          "id": "f8aee3e0-b957-4cb4-a7ef-c467b52da7e6",
+          "farmer_id": "1f72a812-288b-4ea3-9bbc-034c1e6f846a",
+          "purpose": ["seeds"],
+          "season": "E.T.",
+          "due_date": "2023-12-29T23:24:54.035Z",
+          "amount": 114466752.68
+        },
+        {
+          "id": "24f50913-60d6-45ac-8cd9-595afe40ad9e",
+          "farmer_id": "1f72a812-288b-4ea3-9bbc-034c1e6f846a",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "Make Love to Me",
+          "due_date": "2023-04-28T00:52:26.466Z",
+          "amount": 264879817.92
+        }
+      ]
+    },
+    {
+      "id": "ce459c47-217c-4b96-8f53-a07fbd664338",
+      "farmer": {
+        "firstName": "Reginald",
+        "lastName": "Cruickshank"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "ebfae882-5cf4-4a3e-b260-7a952271b7da",
+          "farmer_id": "52717cf7-6f56-42e2-a13f-faeb229e5bee",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Knock On Wood",
+          "due_date": "2023-02-08T14:29:11.556Z",
+          "amount": 580932142.8
+        },
+        {
+          "id": "f24a1729-b421-4710-9485-e19103cc81c5",
+          "farmer_id": "52717cf7-6f56-42e2-a13f-faeb229e5bee",
+          "purpose": ["fertilizer", "seeds"],
+          "season": "Lean On Me",
+          "due_date": "2023-11-13T23:33:08.349Z",
+          "amount": 662159069.78
+        }
+      ]
+    },
+    {
+      "id": "8db42c04-f1e3-440a-93e3-1543cf91175d",
+      "farmer": {
+        "firstName": "Mae",
+        "lastName": "Berge"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "9327b390-5a2b-4dd5-9be9-03da629ae726",
+          "farmer_id": "8c2061c9-868e-4612-8c93-595509a3ca1d",
+          "purpose": ["fertilizer", "chemicals", "seeds"],
+          "season": "ABC",
+          "due_date": "2023-02-01T16:39:11.422Z",
+          "amount": 708681560.38
+        },
+        {
+          "id": "91294b5a-eae1-4ff5-8eef-a02d8c132d1d",
+          "farmer_id": "8c2061c9-868e-4612-8c93-595509a3ca1d",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Lean On Me",
+          "due_date": "2023-05-08T20:13:38.841Z",
+          "amount": 187437827.42
+        },
+        {
+          "id": "88155718-91a8-48a4-ae13-5663297f110c",
+          "farmer_id": "8c2061c9-868e-4612-8c93-595509a3ca1d",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Stranger On the Shore",
+          "due_date": "2023-08-09T04:24:46.078Z",
+          "amount": 615022086.12
+        }
+      ]
+    },
+    {
+      "id": "adaff140-85a3-48dd-8076-a09156fe176b",
+      "farmer": {
+        "firstName": "Eva",
+        "lastName": "Kertzmann"
+      },
+      "status": "approved",
+      "credit_requests": [
+        {
+          "id": "93cc4d4a-c1c1-4987-b58c-a6c0c3113a89",
+          "farmer_id": "c001ca72-380d-4e04-b7a1-5e2ec3181c39",
+          "purpose": ["seeds"],
+          "season": "Help Me",
+          "due_date": "2023-09-15T21:55:27.687Z",
+          "amount": 194105565.41
+        },
+        {
+          "id": "c1037f9a-6260-4c34-a2d4-ad625aaf99ad",
+          "farmer_id": "c001ca72-380d-4e04-b7a1-5e2ec3181c39",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Aquarius/Let The Sunshine In",
+          "due_date": "2023-02-14T04:05:12.656Z",
+          "amount": 487185697.85
+        },
+        {
+          "id": "1aa4a2a7-3f2d-4095-aaaf-b41b057864fb",
+          "farmer_id": "c001ca72-380d-4e04-b7a1-5e2ec3181c39",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Your Song",
+          "due_date": "2023-02-07T04:09:29.780Z",
+          "amount": 499215562.04
+        }
+      ]
+    },
+    {
+      "id": "2f66c8ee-b096-42eb-adf3-dcbaade7b453",
+      "farmer": {
+        "firstName": "Raul",
+        "lastName": "Will"
+      },
+      "status": "ready",
+      "credit_requests": [
+        {
+          "id": "3adbb3a2-58fc-42c3-8bfc-4ee9f24cb5af",
+          "farmer_id": "be3fac6c-79a8-481e-898f-6da41ed9f82a",
+          "purpose": ["fertilizer", "chemicals"],
+          "season": "Say You",
+          "due_date": "2023-04-06T14:59:33.371Z",
+          "amount": 978707047.26
+        },
+        {
+          "id": "c8af1c3e-3a9d-4839-a63b-a92574d3b5f7",
+          "farmer_id": "be3fac6c-79a8-481e-898f-6da41ed9f82a",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "The Last Dance",
+          "due_date": "2023-08-07T16:50:48.881Z",
+          "amount": 441174269.82
+        }
+      ]
+    },
+    {
+      "id": "3e126ba1-9c40-4f41-affe-de11feee1e0c",
+      "farmer": {
+        "firstName": "Myrtle",
+        "lastName": "Schuppe"
+      },
+      "status": "draft",
+      "credit_requests": [
+        {
+          "id": "3187b131-6844-4358-9b9f-aebf54667325",
+          "farmer_id": "b7445be1-b1bd-4e4d-a8c7-9c700cfd31d7",
+          "purpose": ["chemicals"],
+          "season": "Pennies From Heaven",
+          "due_date": "2024-01-06T08:41:09.374Z",
+          "amount": 678542881.9
+        },
+        {
+          "id": "44390a29-97db-43eb-9f21-ce36e2be9a41",
+          "farmer_id": "b7445be1-b1bd-4e4d-a8c7-9c700cfd31d7",
+          "purpose": ["chemicals", "fertilizer"],
+          "season": "Save the Last Dance For Me",
+          "due_date": "2023-11-10T20:27:35.919Z",
+          "amount": 856899224.81
+        },
+        {
+          "id": "de826b8d-9455-4622-91a1-8e4597414c77",
+          "farmer_id": "b7445be1-b1bd-4e4d-a8c7-9c700cfd31d7",
+          "purpose": ["fertilizer"],
+          "season": "You Don't Have to Be a Star (To Be in My Show)",
+          "due_date": "2023-10-21T03:01:22.680Z",
+          "amount": 689339691.29
+        }
+      ]
+    },
+    {
+      "id": "cfda0d2e-23d0-43eb-ba63-80234461f39d",
+      "farmer": {
+        "firstName": "Rafael",
+        "lastName": "Kilback"
+      },
+      "status": "rejected",
+      "credit_requests": [
+        {
+          "id": "2cea7b10-f392-4c34-96c1-f42c8258a149",
+          "farmer_id": "15b33ee1-12f3-459c-87f5-5834aa74213f",
+          "purpose": ["seeds", "fertilizer", "chemicals"],
+          "season": "Mr Brightside",
+          "due_date": "2023-12-29T19:27:37.028Z",
+          "amount": 53723129.78
+        },
+        {
+          "id": "d5990124-15cc-4037-9f7b-3399eec5e961",
+          "farmer_id": "15b33ee1-12f3-459c-87f5-5834aa74213f",
+          "purpose": ["seeds", "fertilizer"],
+          "season": "Indian Reservation (The Lament Of The Cherokee Reservation Indian)",
+          "due_date": "2023-12-11T07:13:06.225Z",
+          "amount": 41505800.61
+        },
+        {
+          "id": "500fa2c4-7938-4212-8ff9-970657714847",
+          "farmer_id": "15b33ee1-12f3-459c-87f5-5834aa74213f",
+          "purpose": ["seeds", "chemicals"],
+          "season": "Let it Be",
+          "due_date": "2023-04-21T02:06:16.501Z",
+          "amount": 37287150.38
+        },
+        {
+          "id": "9450dd6e-6c93-494e-81e2-8eff560ac1a4",
+          "farmer_id": "15b33ee1-12f3-459c-87f5-5834aa74213f",
+          "purpose": ["chemicals", "seeds", "fertilizer"],
+          "season": "Layla",
+          "due_date": "2023-04-26T08:19:54.741Z",
+          "amount": 548541294.84
+        }
+      ]
+    }
+  ]
+}
