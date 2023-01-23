@@ -1,3 +1,7 @@
+import {
+  ArrowLongLeftIcon,
+  ArrowLongRightIcon,
+} from "@heroicons/react/24/solid";
 import React from "react";
 import FarmerRequestRow from "./FarmerRequestRow";
 import { FullData } from "./interfaces";
@@ -44,8 +48,30 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
         {/* footer */}
         <tfoot className="font-medium text-slate-400">
           <tr>
-            <td className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              {data.totalPages} - {data.totalInPage} of {data.totalItems}
+            <td
+              className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200"
+              colSpan={6}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                }}
+              >
+                <div>
+                  {data.totalPages} - {data.totalInPage} of {data.totalItems}
+                </div>
+                <div>
+                  <button type="button">
+                    <ArrowLongLeftIcon className="h-6 w-6 text-blue-500" />
+                  </button>{" "}
+                  <a>1</a> <a>2</a> <a>3</a>{" "}
+                  <button type="button">
+                    <ArrowLongRightIcon className="h-6 w-6 text-blue-500" />
+                  </button>
+                </div>
+              </div>
             </td>
           </tr>
         </tfoot>
