@@ -3,7 +3,7 @@ import logo from "./traive-logo-green-tm.svg";
 import "./App.css";
 import CreditRequestsTable from "./CreditRequestsTable";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +12,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
