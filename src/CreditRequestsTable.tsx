@@ -1,6 +1,15 @@
 import React from "react";
 
-function CreditRequestsTable() {
+export interface CreditRequestsTableProps {
+  data: {
+    items: any[];
+    totalInPage: number;
+    totalItems: number;
+    totalPages: number;
+  };
+}
+
+const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
   return (
     <table className="table-auto">
       <thead>
@@ -12,27 +21,19 @@ function CreditRequestsTable() {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-          <td>Malcolm Lockyer</td>
-          <td>Lorem</td>
-          <td>1961</td>
-        </tr>
-        <tr>
-          <td>Witchy Woman</td>
-          <td>The Eagles</td>
-          <td>Ipsum</td>
-          <td>1972</td>
-        </tr>
-        <tr>
-          <td>Shining Star</td>
-          <td>Earth, Wind, and Fire</td>
-          <td>Dolor</td>
-          <td>1975</td>
-        </tr>
+        {data.items
+          .flatMap((item) => item.credit_requests)
+          .map((credit_request) => (
+            <tr key={credit_request.id}>
+              <td>{credit_request.season}</td>
+              <td>Malcolm Lockyer</td>
+              <td>Lorem</td>
+              <td>1961</td>
+            </tr>
+          ))}
       </tbody>
     </table>
   );
-}
+};
 
 export default CreditRequestsTable;

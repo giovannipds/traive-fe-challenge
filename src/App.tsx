@@ -1,14 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./traive-logo-green-tm.svg";
 import "./App.css";
-import CreditRequestsTable from "./CreditRequestsTable";
+import CreditRequestsTable, {
+  CreditRequestsTableProps,
+} from "./CreditRequestsTable";
 
 const App = () => {
+  const [data, setData] = useState<CreditRequestsTableProps["data"]>();
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("http://localhost:3004/credit-requests");
       const data = await response.json();
-      console.log(data);
+      setData(data);
     };
     fetchData();
   }, []);
@@ -17,7 +20,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo mb-3" alt="Traive™" />
-        <CreditRequestsTable />
+        {data && <CreditRequestsTable data={data} />}
       </header>
     </div>
   );
