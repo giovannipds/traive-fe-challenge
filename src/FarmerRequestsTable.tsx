@@ -6,6 +6,8 @@ export interface FarmerRequestsTableProps {
   data: FullData;
 }
 
+const limit = 10;
+
 const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
   return (
     <div className="not-prose relative overflow-hidden rounded-xl bg-slate-50 dark:bg-slate-800/25">
@@ -31,7 +33,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
           </tr>
         </thead>
         <tbody className="bg-white dark:bg-slate-800">
-          {data.items.map((item) => (
+          {data.items.slice(0, limit).map((item) => (
             <FarmerRequestRow key={item.id} item={item} />
           ))}
         </tbody>
