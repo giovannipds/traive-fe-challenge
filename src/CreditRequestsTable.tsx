@@ -32,6 +32,21 @@ export interface CreditRequestsTableProps {
   };
 }
 
+const formatCurrency = (amount: number) =>
+  new Intl.NumberFormat(locale, {
+    currency: "USD",
+    style: "currency",
+  }).format(amount);
+
+const formatPurposes = (purposes: string[]) =>
+  purposes.map((p) => p[0].toUpperCase() + p.slice(1)).join(", ");
+
+const formatDateTime = (datetime: string) =>
+  new Intl.DateTimeFormat(locale, {
+    dateStyle: "short",
+    timeStyle: "short",
+  }).format(new Date(datetime));
+
 const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
   return (
     <table className="table-auto">
@@ -49,23 +64,9 @@ const CreditRequestsTable = ({ data }: CreditRequestsTableProps) => {
           .map((credit_request) => (
             <tr key={credit_request.id}>
               <td>{credit_request.season}</td>
-              <td>
-                {new Intl.NumberFormat(locale, {
-                  currency: "USD",
-                  style: "currency",
-                }).format(credit_request.amount)}
-              </td>
-              <td>
-                {credit_request.purpose
-                  .map((p) => p[0].toUpperCase() + p.slice(1))
-                  .join(", ")}
-              </td>
-              <td>
-                {new Intl.DateTimeFormat(locale, {
-                  dateStyle: "short",
-                  timeStyle: "short",
-                }).format(new Date(credit_request.due_date))}
-              </td>
+              <td>{formatCurrency(credit_request.amount)}</td>
+              <td>{formatPurposes(credit_request.purpose)}</td>
+              <td>{formatDateTime(credit_request.due_date)}</td>
             </tr>
           ))}
       </tbody>
