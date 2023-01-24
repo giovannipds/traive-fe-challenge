@@ -34,7 +34,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App selection:bg-teal-400 selection:text-black">
       {/* header */}
       <header className="App-header mb-6 p-4 shadow">
         <img src={logo} className="App-logo" alt="Traive™" />
