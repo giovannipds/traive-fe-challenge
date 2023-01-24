@@ -1,5 +1,5 @@
 import React from "react";
-import { formatCurrency, formatDateTime } from "./helpers";
+import { capitalize, formatCurrency, formatDateTime } from "./helpers";
 import { CreditRequest } from "./interfaces";
 
 interface CreditRequestsTableProps {
@@ -7,7 +7,7 @@ interface CreditRequestsTableProps {
 }
 
 const formatPurposes = (purposes: string[]) =>
-  purposes.map((p) => p[0].toUpperCase() + p.slice(1)).join(", ");
+  purposes.map((p) => capitalize(p)).join(", ");
 
 const CreditRequestsTable = ({ credit_requests }: CreditRequestsTableProps) => {
   return (

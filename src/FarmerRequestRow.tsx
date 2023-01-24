@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CreditRequestsTable from "./CreditRequestsTable";
-import { formatCurrency, formatDateTime } from "./helpers";
+import { capitalize, formatCurrency, formatDateTime } from "./helpers";
 import { FarmerName, FullFarmerRequest } from "./interfaces";
 import {
   ChevronDownIcon,
@@ -41,7 +41,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
               {formatCurrency(item.amount_requested)}
             </td>
             <td className="w-2/12 border-b border-stone-700 p-4 py-3">
-              {item.status}
+              {capitalize(item.status)}
             </td>
             <td className="w-2/12 border-b border-stone-700 p-4 py-3">
               {formatDateTime(new Date().toString())}

@@ -1,5 +1,8 @@
 export const locale = "en-US";
 
+export const capitalize = (word: string) =>
+  word[0].toUpperCase() + word.slice(1);
+
 export const formatCurrency = (amount: number) =>
   new Intl.NumberFormat(locale, {
     currency: "USD",
