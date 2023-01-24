@@ -15,8 +15,18 @@ const calculateAmountRequested = (data: Data): FullData => {
         (acc, request) => acc + request.amount,
         0
       ),
+      due_date: item.credit_requests.reduce((acc, request) => {
+        const requestDate = new Date(request.due_date);
+        const requestISOString = requestDate.toISOString();
+        if (!acc) return requestISOString;
+        const prevDate = new Date(acc);
+        return prevDate < requestDate
+          ? requestISOString
+          : prevDate.toISOString();
+      }, ""),
     })),
   };
+  console.log(calculated);
   return calculated;
 };
 

@@ -28,6 +28,7 @@ export interface FarmerRequest {
 
 export interface FullFarmerRequest extends FarmerRequest {
   amount_requested: number;
+  due_date: string;
 }
 
 export interface Data {

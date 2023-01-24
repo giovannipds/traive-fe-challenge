@@ -53,7 +53,7 @@ const FarmerRequestRow = ({
               {capitalize(item.status)}
             </td>
             <td className="w-2/12 border-b border-stone-400 p-4 py-3">
-              {formatDateTime(new Date().toString())}
+              {formatDateTime(item.due_date)}
             </td>
             <td className="w-1/12 border-b border-stone-400 p-4 py-3 text-right">
               <div className="relative">

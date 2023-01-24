@@ -32,7 +32,7 @@ const Pagination = ({ pages, paginationState }: PaginationProps) => {
         {pages.map((pageNumber) => {
           const isCurrentPage = pageNumber === currentPage;
           return (
-            <li>
+            <li key={pageNumber}>
               <a
                 aria-label={`page ${pageNumber}`}
                 aria-current={isCurrentPage ? "page" : undefined}
