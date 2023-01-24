@@ -17,7 +17,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
     <div className="not-prose relative mb-8 overflow-hidden rounded-xl border border-stone-600">
       <table className="border-collaps w-full table-auto font-medium">
         {/* head */}
-        <thead className="border-b border-stone-600 bg-stone-700/50 text-center text-stone-400">
+        <thead className="border-b border-stone-600 bg-stone-700/50 text-center text-stone-100">
           <tr>
             <th className="w-1/12 p-4 py-8"></th>
             <th className="w-2/12 p-4">Farmer</th>

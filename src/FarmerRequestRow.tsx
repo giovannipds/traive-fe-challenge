@@ -23,7 +23,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
   return (
     <tr>
       <td colSpan={6}>
-        <table className="w-full text-center text-sm font-normal text-stone-100">
+        <table className="w-full text-center text-sm font-normal text-stone-400">
           <tr>
             <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-left">
               <button aria-label="Expand" onClick={expandRow} type="button">
@@ -48,7 +48,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
             </td>
             <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-right">
               <button type="button">
-                <EllipsisVerticalIcon className="h-6 w-6 text-blue-500" />
+                <EllipsisVerticalIcon className="h-6 w-6 text-stone-400" />
               </button>
             </td>
           </tr>
