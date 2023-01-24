@@ -12,6 +12,10 @@ export interface FarmerRequestsTableProps {
 
 const limit = 10;
 
+const currentPage = 1;
+
+const pages = [1, 2, 3];
+
 const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
   return (
     <div className="not-prose relative mb-8 overflow-hidden rounded-xl border border-stone-500">
@@ -50,57 +54,55 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                   {data.totalPages} - {data.totalInPage} of {data.totalItems}
                 </div>
                 <div>
-                  <nav aria-label="Page navigation example">
-                    <ul className="inline-flex items-center -space-x-px">
+                  <nav aria-label="Page navigation">
+                    <ul className="inline-flex items-center space-x-3">
                       <li>
-                        <button aria-label="Previous Page" type="button">
-                          <ArrowLongLeftIcon className="h-6 w-6" />
+                        <button
+                          aria-label="Previous Page"
+                          className="cursor-pointer hover:text-stone-400"
+                          disabled={currentPage <= 1}
+                          type="button"
+                        >
+                          <ArrowLongLeftIcon className="h-5 w-5" />
                         </button>
                       </li>
+                      {pages.map((pageNumber) => {
+                        const isCurrentPage = pageNumber === currentPage;
+                        return (
+                          <li>
+                            <a
+                              aria-label={`page ${pageNumber}`}
+                              aria-current={isCurrentPage ? "page" : undefined}
+                              className={[
+                                "border",
+                                "border-stone-500",
+                                isCurrentPage
+                                  ? "bg-teal-400"
+                                  : "bg-stone-700/50",
+                                "p-1",
+                                "px-2",
+                                "leading-tight",
+                                isCurrentPage
+                                  ? "hover:bg-teal-600"
+                                  : "hover:bg-teal-400",
+                              ]
+                                .filter(Boolean)
+                                .join(" ")}
+                              href={`#${pageNumber}`}
+                            >
+                              {pageNumber}
+                            </a>
+                          </li>
+                        );
+                      })}
                       <li>
-                        <a
-                          href="#"
-                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
+                        <button
+                          aria-label="Next Page"
+                          className="cursor-pointer hover:text-stone-400"
+                          disabled={currentPage >= pages[pages.length - 1]}
+                          type="button"
                         >
-                          1
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
-                        >
-                          2
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          aria-current="page"
-                          className="z-10 border border-blue-300 bg-blue-50 px-3 py-2 leading-tight text-blue-600 hover:bg-blue-100 hover:text-blue-700 dark:border-stone-700 dark:bg-stone-700 dark:text-white"
-                        >
-                          3
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
-                        >
-                          4
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
-                        >
-                          5
-                        </a>
-                      </li>
-                      <li>
-                        <button aria-label="Next Page" type="button">
-                          <ArrowLongRightIcon className="h-6 w-6" />
+                          <ArrowLongRightIcon className="h-5 w-5" />
                         </button>
                       </li>
                     </ul>

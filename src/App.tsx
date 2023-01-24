@@ -35,9 +35,12 @@ const App = () => {
 
   return (
     <div className="App">
+      {/* header */}
       <header className="App-header mb-6 p-4 shadow">
         <img src={logo} className="App-logo" alt="Traive™" />
       </header>
+
+      {/* main */}
       <main className="container mx-auto px-4">
         {data && <FarmerRequestsTable data={data} />}
       </main>
