@@ -84,7 +84,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                     .join(" ")}
                 >
                   <ul
-                    className="py-2 text-sm text-gray-200"
+                    className="whitespace-nowrap py-2 text-sm text-gray-200"
                     aria-labelledby={`actionsDropdown-${item.id}`}
                   >
                     <li>
@@ -92,7 +92,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                         href="#"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
-                        Dashboard
+                        Approve
                       </a>
                     </li>
                     <li>
@@ -100,7 +100,15 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                         href="#"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
-                        Settings
+                        Reject
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
+                      >
+                        Mark as Ready
                       </a>
                     </li>
                   </ul>
