@@ -36,12 +36,14 @@ const App = () => {
   return (
     <div className="App selection:bg-teal-400 selection:text-black">
       {/* header */}
-      <header className="App-header mb-6 p-4 shadow">
-        <img src={logo} className="App-logo" alt="Traive™" />
+      <header className="App-header sticky top-0 z-10 mb-6 bg-stone-800 p-4 shadow">
+        <a href="https://traivefinance.com/" target="_blank" rel="noreferrer">
+          <img src={logo} className="App-logo" alt="Traive™" />
+        </a>
       </header>
 
       {/* main */}
-      <main className="container mx-auto px-4">
+      <main className="container relative mx-auto px-4">
         {data && <FarmerRequestsTable data={data} />}
       </main>
 
