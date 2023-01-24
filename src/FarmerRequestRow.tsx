@@ -22,10 +22,10 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
 
   return (
     <tr>
-      <td colSpan={6}>
-        <table className="w-full text-center text-sm font-normal text-stone-400">
+      <td className="text-sm" colSpan={6}>
+        <table className="w-full text-center font-normal text-stone-400">
           <tr>
-            <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-left">
+            <td className="w-1/12 border-b border-stone-400 p-4 py-3 text-left">
               <button aria-label="Expand" onClick={expandRow} type="button">
                 {!expanded ? (
                   <ChevronDownIcon className="h-6 w-6 text-white" />
@@ -34,19 +34,19 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                 )}
               </button>
             </td>
-            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
+            <td className="w-2/12 border-b border-stone-400 p-4 py-3">
               {formatName(item.farmer)}
             </td>
-            <td className="w-2/12 border-b border-stone-700 p-4 py-3 text-right">
+            <td className="w-2/12 border-b border-stone-400 p-4 py-3 text-right">
               {formatCurrency(item.amount_requested)}
             </td>
-            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
+            <td className="w-2/12 border-b border-stone-400 p-4 py-3">
               {capitalize(item.status)}
             </td>
-            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
+            <td className="w-2/12 border-b border-stone-400 p-4 py-3">
               {formatDateTime(new Date().toString())}
             </td>
-            <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-right">
+            <td className="w-1/12 border-b border-stone-400 p-4 py-3 text-right">
               <button type="button">
                 <EllipsisVerticalIcon className="h-6 w-6 text-stone-400" />
               </button>

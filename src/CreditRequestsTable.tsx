@@ -11,37 +11,38 @@ const formatPurposes = (purposes: string[]) =>
 
 const CreditRequestsTable = ({ credit_requests }: CreditRequestsTableProps) => {
   return (
-    <div className="not-prose relative overflow-hidden rounded-xl bg-slate-50 dark:bg-slate-800/25">
-      <table className="w-full table-auto border-collapse">
-        <thead className="font-medium text-slate-400">
+    <div className="not-prose relative overflow-hidden">
+      <table className="w-full table-auto border-collapse text-center">
+        {/* head */}
+        <thead className="bg-stone-700 font-medium text-stone-200">
           <tr>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+            <th className="w-4/12 border-b border-stone-600 p-4 pl-24">
               Season
             </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+            <th className="w-2/12 border-b border-stone-600 p-4 text-right">
               Amount Requested
             </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Purpose
-            </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
+            <th className="w-3/12 border-b border-stone-600 p-4">Purpose</th>
+            <th className="w-3/12 border-b border-stone-600 p-4 pr-24">
               Due Date
             </th>
           </tr>
         </thead>
-        <tbody className="bg-white dark:bg-slate-800">
+
+        {/* body */}
+        <tbody className="bg-stone-700/25">
           {credit_requests.map((credit_request) => (
             <tr key={credit_request.id}>
-              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+              <td className="w-4/12 border-b border-stone-700 p-4 pl-24 text-stone-400">
                 {credit_request.season}
               </td>
-              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+              <td className="w-2/12 border-b border-stone-700 p-4 text-right text-stone-400">
                 {formatCurrency(credit_request.amount)}
               </td>
-              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+              <td className="w-3/12 border-b border-stone-700 p-4 text-stone-400">
                 {formatPurposes(credit_request.purpose)}
               </td>
-              <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+              <td className="w-3/12 border-b border-stone-700 p-4 pr-24 text-stone-400">
                 {formatDateTime(credit_request.due_date)}
               </td>
             </tr>
