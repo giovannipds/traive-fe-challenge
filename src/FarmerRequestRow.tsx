@@ -23,36 +23,38 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
   return (
     <tr>
       <td colSpan={6}>
-        <table className="w-full">
+        <table className="w-full text-center text-sm font-normal text-stone-100">
           <tr>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-left">
               <button aria-label="Expand" onClick={expandRow} type="button">
                 {!expanded ? (
-                  <ChevronDownIcon className="h-6 w-6 text-blue-500" />
+                  <ChevronDownIcon className="h-6 w-6 text-white" />
                 ) : (
-                  <ChevronUpIcon className="h-6 w-6 text-blue-500" />
+                  <ChevronUpIcon className="h-6 w-6 text-white" />
                 )}
               </button>
             </td>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
               {formatName(item.farmer)}
             </td>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-2/12 border-b border-stone-700 p-4 py-3 text-right">
               {formatCurrency(item.amount_requested)}
             </td>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
               {item.status}
             </td>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-2/12 border-b border-stone-700 p-4 py-3">
               {formatDateTime(new Date().toString())}
             </td>
-            <td className="border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
+            <td className="w-1/12 border-b border-stone-700 p-4 py-3 text-right">
               <button type="button">
                 <EllipsisVerticalIcon className="h-6 w-6 text-blue-500" />
               </button>
             </td>
           </tr>
         </table>
+
+        {/* expanded table */}
         {expanded && (
           <CreditRequestsTable credit_requests={item.credit_requests} />
         )}

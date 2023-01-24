@@ -14,44 +14,31 @@ const limit = 10;
 
 const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
   return (
-    <div className="not-prose relative overflow-hidden rounded-xl bg-slate-50 dark:bg-slate-800/25">
-      <table className="table-auto border-collapse">
+    <div className="not-prose relative mb-8 overflow-hidden rounded-xl border border-stone-600">
+      <table className="border-collaps w-full table-auto font-medium">
         {/* head */}
-        <thead className="font-medium text-slate-400">
+        <thead className="border-b border-stone-600 bg-stone-700/50 text-center text-stone-400">
           <tr>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200"></th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Farmer
-            </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Amount Requested
-            </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Status
-            </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Due Date
-            </th>
-            <th className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200">
-              Actions
-            </th>
+            <th className="w-1/12 p-4 py-8"></th>
+            <th className="w-2/12 p-4">Farmer</th>
+            <th className="w-2/12 p-4 text-right">Amount Requested</th>
+            <th className="w-2/12 p-4">Status</th>
+            <th className="w-2/12 p-4">Due Date</th>
+            <th className="w-1/12 p-4 pr-6 text-right">Actions</th>
           </tr>
         </thead>
 
         {/* body */}
-        <tbody className="bg-white dark:bg-slate-800">
+        <tbody>
           {data.items.slice(0, limit).map((item) => (
             <FarmerRequestRow key={item.id} item={item} />
           ))}
         </tbody>
 
         {/* footer */}
-        <tfoot className="font-medium text-slate-400">
+        <tfoot className="text-stone-400">
           <tr>
-            <td
-              className="border-b p-4 pl-8 text-left  dark:border-slate-600 dark:text-slate-200"
-              colSpan={6}
-            >
+            <td className="border-b border-stone-600 p-4" colSpan={6}>
               <div
                 style={{
                   display: "flex",

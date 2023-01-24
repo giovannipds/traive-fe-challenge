@@ -35,10 +35,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo mb-3" alt="Traive™" />
-        {data && <FarmerRequestsTable data={data} />}
+      <header className="App-header mb-6 p-4 shadow">
+        <img src={logo} className="App-logo" alt="Traive™" />
       </header>
+      <main className="container mx-auto px-4">
+        {data && <FarmerRequestsTable data={data} />}
+      </main>
     </div>
   );
 };
