@@ -95,7 +95,7 @@ const FarmerRequestRow = ({
                   >
                     <li>
                       <a
-                        href="#"
+                        href="#approve"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
                         Approve
@@ -103,7 +103,7 @@ const FarmerRequestRow = ({
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#mark-as-draft"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
                         Mark as Draft
@@ -111,7 +111,7 @@ const FarmerRequestRow = ({
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#mark-as-ready"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
                         Mark as Ready
@@ -119,7 +119,7 @@ const FarmerRequestRow = ({
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#reject"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
                         Reject
