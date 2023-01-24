@@ -9,11 +9,9 @@ interface PaginationProps {
   paginationState: [number, React.Dispatch<React.SetStateAction<number>>];
 }
 
-const Pagination = ({
-  pages,
-  paginationState,
-}: PaginationProps) => {
-  const [currentPage, setCurrentPage] = paginationState
+const Pagination = ({ pages, paginationState }: PaginationProps) => {
+  const [currentPage, setCurrentPage] = paginationState;
+  const prevPage = () => setCurrentPage((page) => --page);
   const nextPage = () => setCurrentPage((page) => ++page);
 
   return (
@@ -24,6 +22,7 @@ const Pagination = ({
             aria-label="Previous Page"
             className="cursor-pointer hover:text-teal-400"
             disabled={currentPage <= 1}
+            onClick={prevPage}
             type="button"
           >
             <ArrowLongLeftIcon className="h-5 w-5" />
