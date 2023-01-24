@@ -13,6 +13,7 @@ const Pagination = ({ pages, paginationState }: PaginationProps) => {
   const [currentPage, setCurrentPage] = paginationState;
   const prevPage = () => setCurrentPage((page) => --page);
   const nextPage = () => setCurrentPage((page) => ++page);
+  const goToPage = (page: number) => setCurrentPage(page);
 
   return (
     <nav aria-label="Page navigation">
@@ -49,6 +50,7 @@ const Pagination = ({ pages, paginationState }: PaginationProps) => {
                   .filter(Boolean)
                   .join(" ")}
                 href={`#${pageNumber}`}
+                onClick={() => goToPage(pageNumber)}
               >
                 {pageNumber}
               </a>
