@@ -50,13 +50,61 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                   {data.totalPages} - {data.totalInPage} of {data.totalItems}
                 </div>
                 <div>
-                  <button aria-label="Previous Page" type="button">
-                    <ArrowLongLeftIcon className="h-6 w-6" />
-                  </button>{" "}
-                  <a href="#">1</a> <a href="#">2</a> <a href="#">3</a>{" "}
-                  <button aria-label="Next Page" type="button">
-                    <ArrowLongRightIcon className="h-6 w-6" />
-                  </button>
+                  <nav aria-label="Page navigation example">
+                    <ul className="inline-flex items-center -space-x-px">
+                      <li>
+                        <button aria-label="Previous Page" type="button">
+                          <ArrowLongLeftIcon className="h-6 w-6" />
+                        </button>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
+                        >
+                          1
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
+                        >
+                          2
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          aria-current="page"
+                          className="z-10 border border-blue-300 bg-blue-50 px-3 py-2 leading-tight text-blue-600 hover:bg-blue-100 hover:text-blue-700 dark:border-stone-700 dark:bg-stone-700 dark:text-white"
+                        >
+                          3
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
+                        >
+                          4
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="border border-stone-300 bg-white px-3 py-2 leading-tight text-stone-500 hover:bg-stone-100 hover:text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white"
+                        >
+                          5
+                        </a>
+                      </li>
+                      <li>
+                        <button aria-label="Next Page" type="button">
+                          <ArrowLongRightIcon className="h-6 w-6" />
+                        </button>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
             </td>
