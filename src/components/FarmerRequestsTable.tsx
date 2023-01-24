@@ -16,6 +16,7 @@ const pages = [1, 2, 3];
 const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
   const actionsDropdownState = useState<string>("");
   const [, setActionsVisibleId] = actionsDropdownState;
+  const paginationState = useState(currentPage);
 
   return (
     <div
@@ -61,7 +62,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                   {data.totalPages} - {data.totalInPage} of {data.totalItems}
                 </div>
                 <div>
-                  <Pagination pages={pages} currentPage={currentPage} />
+                  <Pagination pages={pages} paginationState={paginationState} />
                 </div>
               </div>
             </td>
