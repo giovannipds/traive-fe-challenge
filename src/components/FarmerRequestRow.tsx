@@ -100,7 +100,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                         href="#"
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
-                        Reject
+                        Mark as Draft
                       </a>
                     </li>
                     <li>
@@ -109,6 +109,14 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                         className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
                       >
                         Mark as Ready
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block px-6 py-2 hover:bg-teal-400 hover:text-black"
+                      >
+                        Reject
                       </a>
                     </li>
                   </ul>
