@@ -1,6 +1,6 @@
 import React from "react";
-import { capitalize, formatCurrency, formatDateTime } from "./helpers";
-import { CreditRequest } from "./interfaces";
+import { capitalize, formatCurrency, formatDateTime } from "../helpers";
+import { CreditRequest } from "../interfaces";
 
 interface CreditRequestsTableProps {
   credit_requests: CreditRequest[];

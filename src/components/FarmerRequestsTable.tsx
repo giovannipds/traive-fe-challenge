@@ -4,7 +4,7 @@ import {
 } from "@heroicons/react/24/solid";
 import React from "react";
 import FarmerRequestRow from "./FarmerRequestRow";
-import { FullData } from "./interfaces";
+import { FullData } from "../interfaces";
 
 export interface FarmerRequestsTableProps {
   data: FullData;
@@ -59,7 +59,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                       <li>
                         <button
                           aria-label="Previous Page"
-                          className="cursor-pointer hover:text-stone-400"
+                          className="cursor-pointer hover:text-teal-400"
                           disabled={currentPage <= 1}
                           type="button"
                         >
@@ -82,6 +82,8 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                                 "p-1",
                                 "px-2",
                                 "leading-tight",
+                                isCurrentPage && "text-black",
+                                "hover:text-black",
                                 isCurrentPage
                                   ? "hover:bg-teal-600"
                                   : "hover:bg-teal-400",
@@ -98,7 +100,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                       <li>
                         <button
                           aria-label="Next Page"
-                          className="cursor-pointer hover:text-stone-400"
+                          className="cursor-pointer hover:text-teal-400"
                           disabled={currentPage >= pages[pages.length - 1]}
                           type="button"
                         >

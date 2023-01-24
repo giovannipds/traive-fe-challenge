@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "./traive-logo-green-tm.svg";
 import "./App.css";
-import FarmerRequestsTable from "./FarmerRequestsTable";
+import FarmerRequestsTable from "./components/FarmerRequestsTable";
 import { Data, FullData } from "./interfaces";
 
 const baseUrl = "http://localhost:3004";
@@ -46,10 +46,10 @@ const App = () => {
       </main>
 
       {/* footer */}
-      <footer className="text-center text-sm text-stone-600">
+      <footer className="pb-4 text-center text-sm text-stone-600">
         Developed by{" "}
         <a
-          className="underline-offset-4 hover:text-teal-400 hover:underline"
+          className="underline-offset-4 outline-none hover:text-teal-400 hover:underline focus:text-teal-400 focus:underline focus:ring-2 focus:ring-teal-400/25"
           href="https://github.com/giovannipds"
           rel="noreferrer"
           target="_blank"
@@ -58,7 +58,7 @@ const App = () => {
         </a>{" "}
         ~{" "}
         <a
-          className="underline-offset-4 hover:text-teal-400 hover:underline"
+          className="underline-offset-4 outline-none hover:text-teal-400 hover:underline focus:text-teal-400 focus:underline focus:ring-2 focus:ring-teal-400/25"
           href="https://www.avenuecode.com"
           rel="noreferrer"
           target="_blank"
