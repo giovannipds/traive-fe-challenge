@@ -36,9 +36,9 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
         </tbody>
 
         {/* footer */}
-        <tfoot className="text-stone-400">
+        <tfoot className="text-stone-100">
           <tr>
-            <td className="border-b border-stone-500 p-4" colSpan={6}>
+            <td className="p-4" colSpan={6}>
               <div
                 style={{
                   display: "flex",
@@ -50,12 +50,12 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                   {data.totalPages} - {data.totalInPage} of {data.totalItems}
                 </div>
                 <div>
-                  <button type="button">
-                    <ArrowLongLeftIcon className="h-6 w-6 text-blue-500" />
+                  <button aria-label="Previous Page" type="button">
+                    <ArrowLongLeftIcon className="h-6 w-6" />
                   </button>{" "}
-                  <a>1</a> <a>2</a> <a>3</a>{" "}
-                  <button type="button">
-                    <ArrowLongRightIcon className="h-6 w-6 text-blue-500" />
+                  <a href="#">1</a> <a href="#">2</a> <a href="#">3</a>{" "}
+                  <button aria-label="Next Page" type="button">
+                    <ArrowLongRightIcon className="h-6 w-6" />
                   </button>
                 </div>
               </div>
