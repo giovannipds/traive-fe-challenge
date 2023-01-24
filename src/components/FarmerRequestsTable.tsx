@@ -80,7 +80,7 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
                                   ? "bg-teal-400"
                                   : "bg-stone-700/50",
                                 "p-1",
-                                "px-2",
+                                "px-3",
                                 "leading-tight",
                                 isCurrentPage && "text-black",
                                 "hover:text-black",
