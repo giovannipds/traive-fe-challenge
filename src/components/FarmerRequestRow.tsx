@@ -9,16 +9,19 @@ import {
 } from "@heroicons/react/24/solid";
 
 interface FarmerRequestRowProps {
+  actionsDropdownState: [string, React.Dispatch<React.SetStateAction<string>>];
   item: FullFarmerRequest;
 }
 
 const formatName = (farmer: FarmerName) =>
   `${farmer.firstName} ${farmer.lastName}`;
 
-const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
+const FarmerRequestRow = ({
+  actionsDropdownState,
+  item,
+}: FarmerRequestRowProps) => {
   const [expanded, setExpanded] = useState(false);
-  const [isActionsDropdownOpen, setIsActionsDropdownOpen] = useState(false);
-
+  const [actionsVisibleId, setActionsVisibleId] = actionsDropdownState;
   const expandRow = () => setExpanded((e) => !e);
 
   return (
@@ -58,7 +61,10 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                   aria-label="Actions"
                   className="rounded-lg p-1 text-stone-400 outline-none hover:text-teal-400 focus:text-teal-400 focus:ring-2 focus:ring-teal-400/25"
                   data-dropdown-toggle="dropdown"
-                  onClick={() => setIsActionsDropdownOpen((v) => !v)}
+                  onClick={(e) => {
+                    setActionsVisibleId((v) => (v === item.id ? "" : item.id));
+                    e.stopPropagation();
+                  }}
                   id={`actionsDropdown-${item.id}`}
                   type="button"
                 >
@@ -71,7 +77,7 @@ const FarmerRequestRow = ({ item }: FarmerRequestRowProps) => {
                   id="dropdown"
                   className={[
                     "z-10",
-                    !isActionsDropdownOpen && "hidden",
+                    actionsVisibleId !== item.id && "hidden",
                     "divide-y",
                     "divide-gray-100",
                     "rounded-lg",

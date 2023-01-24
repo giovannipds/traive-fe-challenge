@@ -2,7 +2,7 @@ import {
   ArrowLongLeftIcon,
   ArrowLongRightIcon,
 } from "@heroicons/react/24/solid";
-import React from "react";
+import React, { useState } from "react";
 import FarmerRequestRow from "./FarmerRequestRow";
 import { FullData } from "../interfaces";
 
@@ -17,8 +17,14 @@ const currentPage = 1;
 const pages = [1, 2, 3];
 
 const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
+  const actionsDropdownState = useState<string>("");
+  const [, setActionsVisibleId] = actionsDropdownState;
+
   return (
-    <div className="not-prose relative mb-8 overflow-hidden rounded-xl border border-stone-500">
+    <div
+      onClick={() => setActionsVisibleId("")}
+      className="not-prose relative mb-8 overflow-hidden rounded-xl border border-stone-500"
+    >
       <table className="border-collaps w-full table-auto font-medium">
         {/* head */}
         <thead className="border-b border-stone-500 bg-stone-700/50 text-center text-stone-100">
@@ -35,7 +41,11 @@ const FarmerRequestsTable = ({ data }: FarmerRequestsTableProps) => {
         {/* body */}
         <tbody>
           {data.items.slice(0, limit).map((item) => (
-            <FarmerRequestRow key={item.id} item={item} />
+            <FarmerRequestRow
+              actionsDropdownState={actionsDropdownState}
+              key={item.id}
+              item={item}
+            />
           ))}
         </tbody>
 
