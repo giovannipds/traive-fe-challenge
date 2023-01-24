@@ -44,6 +44,28 @@ const App = () => {
       <main className="container mx-auto px-4">
         {data && <FarmerRequestsTable data={data} />}
       </main>
+
+      {/* footer */}
+      <footer className="text-center text-sm text-stone-600">
+        Developed by{" "}
+        <a
+          className="underline-offset-4 hover:text-teal-400 hover:underline"
+          href="https://github.com/giovannipds"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Giovanni Pires
+        </a>{" "}
+        ~{" "}
+        <a
+          className="underline-offset-4 hover:text-teal-400 hover:underline"
+          href="https://www.avenuecode.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Avenue Code
+        </a>
+      </footer>
     </div>
   );
 };
